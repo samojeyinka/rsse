@@ -1,0 +1,960 @@
+main,
+.ps_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+
+
+/* The presale hero styles */
+
+.presale_hero {
+    padding-top: 15rem;
+    width: 100%;
+    height: auto;
+    background-image: url('../assets//presaleimages/heroimg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.presale_hero-con {
+    position: relative;
+    padding-top: 7rem;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    background: var(--secondary-color);
+    border-radius: 24px;
+    border: 5px solid #FFF;
+}
+
+
+.presale_hero-con .top {
+    width: fit-content;
+    margin: auto;
+}
+
+
+.presale_hero-con .top .cp {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 200;
+    color: #fff;
+    font-family: Rowdies;
+}
+
+
+
+.presale_hero-con .top h1 {
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: Rowdies;
+}
+
+
+.presale_hero-con .top h4,
+.presale_hero-con .top h5 {
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+    font-family: Rowdies;
+    font-weight: 200;
+}
+
+.presale_hero-con .top h5 {
+    font-size: 20px;
+}
+
+.presale_hero-con .top h4 {
+    font-size: 16px;
+}
+
+
+
+.presale_hero-con .top .t_box {
+    padding: 1rem;
+    margin: 1rem auto;
+    width: fit-content;
+    background: var(--light-bg);
+    display: flex;
+    flex-direction: column;
+    gap: .1rem;
+    border-radius: 4px;
+}
+
+
+.presale_hero-con .top .t_box b {
+    font-size: .8rem;
+    color: #0F3029;
+}
+
+.presale_hero-con .top .t_box b span {
+    color: #90CD87;
+}
+
+
+
+.presale_hero-con .top .t_box .stage,
+.presale_hero-con .top .t_box .stage b {
+    text-align: left;
+    font-size: .72rem;
+    color: #7BAF74;
+}
+
+.presale_hero-con .top .t_box .rmus {
+    text-align: left;
+    font-size: .7rem;
+    color: #90CD87;
+}
+
+
+.presale_hero-con .divider {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.presale_hero-con .divider img {
+    width: 70%;
+}
+
+
+
+.presale_hero-con .divider .avodiv,
+.presale_hero-con .divider .cat {
+    position: absolute;
+}
+
+
+.presale_hero-con .divider .avodiv {
+    right: 22%;
+    width: 4rem;
+}
+
+.presale_hero-con .divider .cat {
+    width: 10rem;
+    bottom: 0;
+    right: 6%;
+}
+
+
+.presale_hero-con .middle h3 {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 26.5px;
+    font-weight: 700;
+}
+
+
+
+.presale_hero-con .middle .small {
+    text-align: center;
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 17.5px;
+}
+
+
+.presale_hero-con .middle .step_instruction {
+    margin: 20px 0;
+    text-align: center;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16.5px;
+    font-weight: 500;
+}
+
+.presale_hero-con .flex__crypt {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.presale_hero-con .crypt__box,
+.presale_hero-con .crypt__box__flex {
+    display: flex;
+    align-items: center;
+}
+
+
+.crypt__box {
+    width: 205px;
+    padding: .2rem;
+    justify-content: space-between;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.presale_hero-con .step-2-box {
+    margin: 25px auto;
+    width: fit-content;
+}
+
+
+.presale_hero-con .middle .step2 {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 17.5px;
+}
+
+
+.sol_box {
+    background: linear-gradient(90deg, #4D7249 0%, #557E52 100%);
+    color: #fff;
+}
+.crypt__box:hover {
+    background: linear-gradient(90deg, #4D7249 0%, #557E52 100%);
+    color: #fff;
+}
+.presale_hero-con .soldino_flex {
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+
+.presale_hero-con .soldinobox {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: #fff;
+    border: 2px solid var(--color-1);
+    border-radius: 5px;
+}
+
+.presale_hero-con .soldinobox input {
+    font-size: .8rem;
+    padding: .5rem;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.presale_hero-con .soldinobox img {
+    width: 2rem;
+}
+
+
+.presale_hero-con .soldino-sol_flex,
+.presale_hero-con .soldino-dino_flex {
+    display: flex;
+    align-items: center;
+}
+
+.presale_hero-con .soldino-sol_flex p,
+.presale_hero-con .soldino-dino_flex p {
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: poppins;
+}
+
+.presale_hero-con .soldino-sol_flex small {
+    font-size: 14px;
+}
+
+.soldino-dino input {
+    padding: .9rem .5rem !important;
+}
+
+
+.presale_hero-con .bottom {
+    padding-bottom: 2rem;
+    width: fit-content;
+    margin: auto;
+}
+
+
+.presale_hero-con .bottom .bottom_btns {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.presale_hero-con .bottom .bottom_btns button {
+    font-size: 1rem;
+    padding: .8rem;
+    font-weight: 600;
+    font-family: Rowdies;
+    border-radius: 8px;
+}
+
+.presale_hero-con .bottom .bottom_btns .buy_now {
+    width: 250px;
+    background: #4D7249;
+    margin-top: 80px;
+    color: #fff;
+}
+
+.presale_hero-con .bottom .bottom_btns .how_to_buy {
+    margin: auto;
+    width: 150px;
+    background: #fff;
+    color: #000;
+}
+
+
+.presale_hero-con .cloud,
+.presale_hero-con .bcloud,
+.presale_hero-con .herov,
+.presale_hero-con .bigCircle,
+.presale_hero-con .miniCircle, .presale_hero-con .avo, .presale_hero-con .tp{
+    position: absolute;
+}
+
+
+.presale_hero-con .herov {
+    width: 17rem;
+    left: 35%;
+    top: -14rem;
+    z-index: 10;
+}
+
+.presale_hero-con .bigCircle {
+    width: 17rem;
+    left: 35%;
+    top: -13rem;
+    z-index: 1;
+}
+
+.presale_hero-con .miniCircle {
+    width: 15rem;
+    left: 36.5%;
+    top: -12rem;
+    z-index: 2;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+
+
+
+
+
+.presale_hero-con .tp.tl{
+    width: 7rem;
+    left: 31.1%;
+    top: -2rem;
+    z-index: 2;
+}
+
+
+.presale_hero-con .tp.tr{
+    width: 7rem;
+    right: 36.1%;
+    top: -6rem;
+    z-index: 1;
+}
+
+
+.presale_hero-con .avo1{
+    width: 2.5rem;
+    left: 36.5%;
+    top: -12rem;
+    z-index: 2;
+}
+
+.presale_hero-con .avo2{
+    width: 2.1rem;
+    right: 41.9%;
+    top: -10rem;
+    z-index: 2;
+}
+
+
+.presale_hero-con .avo3{
+    width: 2.3rem;
+    right: 41.9%;
+    top: -4rem;
+    z-index: 11;
+}
+
+
+.presale_hero-con .avo4{
+    width: 2.5rem;
+    left: 36.5%;
+    top: -1rem;
+    z-index: 11;
+}
+
+.presale_hero-con .cloud1 {
+    width: 5rem;
+    top: 5rem;
+    left: 9%;
+}
+
+
+.presale_hero-con .cloud2 {
+    width: 6rem;
+    top: 7rem;
+    left: 21%;
+}
+
+
+
+.presale_hero-con .cloud3 {
+    width: 5rem;
+    top: 5rem;
+    right: 8%;
+}
+
+
+.presale_hero-con .cloud4 {
+    width: 6rem;
+    top: 7rem;
+    right: 19%;
+}
+
+
+.presale_hero-con .svg1,
+.presale_hero-con .svg2 {
+    width: 32%;
+    bottom: 0;
+    left: 0;
+}
+
+.presale_hero-con .svg3,
+.presale_hero-con .svg4 {
+    width: 32%;
+    bottom: 0;
+    right: 0;
+}
+
+/* The presale hero responsiveness */
+
+
+@media screen and (max-width:1300px) {
+
+    .presale_hero-con .tp.tr{
+        right: 31%;
+        top: -6.5rem;
+    }
+    
+.presale_hero-con .avo2{
+    right: 38.9%;
+}
+
+
+.presale_hero-con .avo3{
+    right: 36.9%;
+}
+
+}
+
+
+@media screen and (max-width:1100px) {
+ 
+        .presale_hero-con .tp.tr{
+            right: 21%;
+            top: -6.5rem;
+        }
+    
+    .presale_hero-con .avo2{
+        right: 35.9%;
+    }
+     
+    .presale_hero-con .avo3{
+        right: 34.9%;
+    }
+    
+    }
+
+
+@media screen and (max-width:768px) {
+
+    .presale_hero {
+        padding-top: 9rem;
+    }
+
+
+    .presale_hero-con {
+        padding-top: 5rem;
+        width: 90%;
+    }
+
+
+
+    .presale_hero-con .herov {
+        width: 15rem;
+        left: 32%;
+    }
+
+    .presale_hero-con .bigCircle {
+        width: 15rem;
+        left: 32%;
+    }
+
+    .presale_hero-con .miniCircle {
+        width: 13rem;
+        left: 34.7%;
+    }
+
+
+    .presale_hero-con .tp.tl{
+        width: 6rem;
+        left: 25.1%;
+        z-index: 10;
+    }
+    
+    
+    .presale_hero-con .tp.tr{
+        width: 6rem;
+        right: 25%;
+        top: -6.5rem;
+    }
+    
+
+    .presale_hero-con .avo1{
+        width: 2.5rem;
+        left: 36.5%;
+        top: -12rem;
+        z-index: 2;
+    }
+    
+    .presale_hero-con .avo2{
+        width: 2rem;
+        right: 30.9%;
+        top: -11rem;
+    }
+    
+    
+    .presale_hero-con .avo3{
+        width: 2.1rem;
+        right: 29.9%;
+        top: -6rem;
+    }
+    
+    
+    .presale_hero-con .avo4{
+        width: 2.3rem;
+        left: 34.5%;
+        top: -3rem;
+    }
+
+    .presale_hero-con .top h1 {
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+
+
+    .presale_hero-con .top h5 {
+        font-size: 19px;
+    }
+
+    .presale_hero-con .top h4 {
+        font-size: 15px;
+    }
+
+
+
+    .presale_hero-con .top .t_box {
+        padding: .6rem;
+    }
+
+
+
+
+
+    .presale_hero-con .divider .avodiv {
+        right: 22%;
+        width: 3rem;
+    }
+
+    .presale_hero-con .divider .cat {
+        width: 7rem;
+        bottom: -10px;
+        right: 2.5%;
+    }
+
+
+    .presale_hero-con .middle h3 {
+        font-size: 21.5px;
+        font-weight: 600;
+    }
+
+
+
+    .presale_hero-con .middle .small {
+        font-size: 15.5px;
+    }
+
+
+    .presale_hero-con .middle .step_instruction {
+        font-size: 15.5px;
+    }
+
+    .presale_hero-con .flex__crypt {
+        gap: 1rem;
+    }
+
+
+    .presale_hero-con .crypt__box,
+    .presale_hero-con .crypt__box__flex {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .crypt__box {
+        width: 190px;
+    }
+
+    .crypt__box img {
+        width: 2rem;
+    }
+
+    .presale_hero-con .middle .step2 {
+        width: 100%;
+        font-size: 15.5px;
+    }
+
+
+    .presale_hero-con .soldino_flex {
+        gap: 5px;
+    }
+
+
+    .presale_hero-con .soldinobox {
+        gap: 2px;
+    }
+
+    .presale_hero-con .soldinobox input {
+        padding: .4rem;
+    }
+
+    .presale_hero-con .soldinobox img {
+        width: 1.7rem;
+    }
+
+
+
+    .presale_hero-con .soldino-sol_flex p,
+    .presale_hero-con .soldino-dino_flex p {
+        font-size: 14px;
+    }
+
+    .presale_hero-con .soldino-sol_flex small {
+        font-size: 13px;
+    }
+
+    .soldino-dino input {
+        padding: .9rem .4rem !important;
+    }
+
+
+    .presale_hero-con .bottom {
+        padding-bottom: 2rem;
+        width: fit-content;
+        margin: auto;
+    }
+
+
+    /* The asthetics responsiveness */
+
+    .presale_hero-con .cloud1 {
+        width: 3rem;
+        top: 2rem;
+        left: 4%;
+    }
+
+
+    .presale_hero-con .cloud2 {
+        width: 3.5rem;
+        top: 4rem;
+        left: 21%;
+    }
+
+
+
+    .presale_hero-con .cloud3 {
+        width: 3rem;
+        top: 2rem;
+        right: 4%;
+    }
+
+
+    .presale_hero-con .cloud4 {
+        width: 3.5rem;
+        top: 4rem;
+        right: 21%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 620px) {
+
+    .presale_hero-con {
+        width: 95%;
+    }
+
+
+    .presale_hero-con .herov {
+        width: 15rem;
+        left: 26%;
+    }
+
+    .presale_hero-con .bigCircle {
+        width: 15rem;
+        left: 26%;
+    }
+
+    .presale_hero-con .miniCircle {
+        width: 13rem;
+        left: 30%;
+    }
+
+
+    .presale_hero-con .tp.tr{
+        right: 11%;
+    }
+
+    .presale_hero-con .avo1{
+        left: 32%;
+    }
+    
+    .presale_hero-con .avo2{
+        right: 27.9%;
+    }
+    
+    
+    .presale_hero-con .avo3{
+        width: 2.1rem;
+        right: 23.9%;
+        top: -6rem;
+    }
+    
+    
+    .presale_hero-con .avo4{
+        width: 2.3rem;
+        left: 29.5%;
+        top: -3rem;
+    }
+
+
+    .presale_hero-con .soldino_flex,
+    .presale_hero-con .crypt__box {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .presale_hero-con .soldino-sol,
+    .presale_hero-con .soldino-dino,
+    .sol_box,
+    .usdt_box {
+        width: 40% !important;
+    }
+
+
+    .usdt_box .crypt__box__flex {
+        width: 100%;
+    }
+
+
+    .sol_box .crypt__box__flex {
+        width: 100%;
+    }
+
+    .presale_hero-con .equal_sign {
+        width: 5%;
+    }
+
+    .presale_hero-con input {
+        width: 60%;
+    }
+
+
+    .presale_hero-con .soldino_flex img {
+        width: 1.2rem;
+    }
+
+    .presale_hero-con .soldinobox {
+        padding: .1rem .3rem;
+    }
+
+    .soldino-dino_flex {
+        gap: .1rem;
+    }
+}
+
+
+@media screen and (max-width: 515px) {
+    .presale_hero-con .divider .avodiv {
+        width: 2rem;
+    }
+
+    .presale_hero-con .divider .cat {
+        width: 5rem;
+    }
+}
+
+
+
+@media screen and (max-width: 415px) {
+    .presale_hero-con {
+        width: 98%;
+    }
+
+    .presale_hero-con .herov {
+        width: 14rem;
+        top: -12rem;
+        left: 20%;
+    }
+
+    .presale_hero-con .bigCircle {
+        width: 14rem;
+        top: -12rem;
+        left: 20%;
+    }
+
+    .presale_hero-con .miniCircle {
+        width: 12rem;
+        top: -10rem;
+        left: 25%;
+    }
+
+    .presale_hero-con .avo1{
+        left: 32%;
+    }
+    
+    .presale_hero-con .avo2{
+        right: 22.9%;
+    }
+    
+    
+    .presale_hero-con .avo3{
+        width: 2.1rem;
+        right: 23.9%;
+        top: -6rem;
+    }
+    
+    
+    .presale_hero-con .avo4{
+        width: 2.3rem;
+        left: 29.5%;
+    }
+
+
+    .presale_hero-con .divider .avodiv {
+        width: 1.4rem;
+    }
+
+    .presale_hero-con .divider .cat {
+        right: 1%;
+        width: 4rem;
+    }
+
+    .presale_hero-con .bottom .bottom_btns .buy_now {
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+/* The table styles */
+
+.presale_stages {
+    margin: 2rem 0;
+    position: relative;
+}
+
+.presale_stages h2 {
+    margin-bottom: 2rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Rowdies;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 28.8px;
+    /* 57.6% */
+    text-transform: uppercase;
+}
+
+
+.presale_stages table {
+    color: #efefef;
+    margin: auto !important;
+    width: 45%;
+    text-align: center !important;
+    background: #7BAF74;
+    border: 1.5px solid #4F280A;
+}
+
+.presale_stages table .thead {
+    background: #53764E;
+}
+
+
+
+
+table td,
+table th {
+    padding: .5rem;
+}
+
+table td {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+table tr,
+table thead {
+    position: relative;
+}
+
+table .border::after {
+    content: "";
+    width: 100%;
+    height: 1.5px;
+    background: #4F280A;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+/* The table responsiveness */
+
+
+@media screen and (max-width: 960px) {
+    .presale_stages table {
+        width: 80%;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .presale_stages table {
+        width: 90%;
+    }
+}

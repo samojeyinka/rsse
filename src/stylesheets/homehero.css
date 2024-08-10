@@ -1,0 +1,111 @@
+.svg1,
+.svg2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+}
+
+.svg3,
+.svg4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+}
+
+
+.cloud1,
+.cloud2,
+.cloud3,
+.cloud4 {
+    position: absolute;
+}
+
+.cloud1 {
+    top: 10%;
+    left: 10%;
+}
+
+.cloud2 {
+    top: 15%;
+    left: 28%;
+}
+
+.cloud3 {
+    top: 15%;
+    right: 28%;
+}
+
+
+.cloud4 {
+    top: 10%;
+    right: 10%;
+}
+
+
+
+.avo3 {
+    top: -6%;
+    right: 37%;
+    width: 2.8rem;
+    z-index: 3;
+}
+
+.avo4 {
+    top: -1.9%;
+    left: 37%;
+    width: 2.4rem;
+    z-index: 4;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .avo1,
+    .avo2,
+    .avo3,
+    .avo4 {
+        position: absolute;
+
+    }
+
+    .avo1 {
+        top: -25%;
+        left: 24%;
+        width: 2.6rem;
+    }
+
+    .avo2 {
+        top: -29%;
+        right: 37%;
+        width: 2.3rem;
+    }
+
+    .avo3 {
+        top: -14%;
+        right: 30%;
+        width: 2.8rem;
+        z-index: 3;
+    }
+
+    .avo4 {
+        top: -5%;
+        left: 30%;
+        width: 2.4rem;
+        z-index: 4;
+    }
+
+
+
+
+    .flex__con {
+        padding-top: 3rem;
+        width: 100%;
+        gap: 2rem;
+    }
+
+}

@@ -1,0 +1,796 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+.pawkenomics{
+    height: auto;
+ 
+}
+.pawkenomics-section {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.pawkenomics {
+    position: relative;
+    border-radius: 24px;
+    border: 5px solid #FFF;
+    width: 80%;
+}
+
+.pawkenomics-header-img {
+    position: absolute;
+    left: 40%;
+    top: -10%;
+    transform: rotate(-4.43deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pawkenomics-section h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Rowdies";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: 1.28px;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.pawkenomics-section h1 .star{
+    margin-bottom: 2rem;
+}
+
+.text1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 100px;
+    margin-top: -80px;
+}
+
+
+.pawkenomics-image {
+    display: flex;
+    justify-content: center;
+}
+
+.pawkenomics-button {
+    display: flex;
+    width: 200px;
+    height: 62px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--SECONDARY, #0F3029);
+    color: #FFF;
+    text-align: center;
+    font-family: Rowdies;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pawkenomics-whitepaper {
+    display: flex;
+    width: 200px;
+    height: 62px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: #FFF;
+    color: var(--Color-1, #53764E);
+    text-align: center;
+    font-family: Rowdies;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.junglepaw_box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.junglepaw_box img{
+    width: 50%;
+}
+
+.TOTAL_SUPPLY{
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: center;
+    margin:1rem 0;
+}
+.pawkenomics-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 50px;
+}
+
+.absolute_buttons button{
+    color: var(--Color-1, #53764E);
+text-align: center;
+font-family: Rowdies;
+font-size: 16px;
+font-weight: 600;
+border-radius: 16px;
+background: #FFF;
+display: flex;
+width: 200px;
+height: 50px;
+padding: 5px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+position: absolute;
+}
+
+.absolute_clouds img{
+    position: absolute;
+}
+
+
+
+.absolute_buttons .a{
+    top:18%;
+    left:15%;
+}
+
+
+.absolute_clouds .ac{
+    width: 7rem;
+    top:10%;
+    left:19%;
+}
+
+
+
+.absolute_buttons .b{
+    top:40%;
+    left:-10%;
+}
+
+
+.absolute_clouds .bc{
+    width: 10rem;
+    top:30%;
+    left:-9%;
+}
+
+
+.absolute_buttons .c{
+    top:70%;
+    left:10%;
+}
+
+.absolute_clouds .cc{
+    width:7rem;
+    top:62%;
+    left:15%;
+}
+
+
+.absolute_buttons .d{
+    top:30%;
+    right:-10%;
+}
+
+
+.absolute_clouds .dc{
+    width:12rem;
+    top:17%;
+    right:-10%;
+}
+
+.absolute_buttons .e{
+    top:65%;
+    right:-3%;
+}
+
+.absolute_clouds .ec{
+    width:9rem;
+    top:55%;
+    right:-4%;
+}
+
+.roadmap {
+    position: relative;
+}
+
+.roadmap h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Rowdies;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70.4px;
+    /* 110% */
+    letter-spacing: 1.28px;
+}
+
+.cloud-left {
+    position: absolute;
+    padding: 0px;
+    top: 400px;
+    left: -100px;
+}
+
+.cloud-right {
+    position: absolute;
+    padding: 0px;
+    top:900px;
+    right: -100px;
+    
+   
+}
+
+.cloud-right2 {
+    position: absolute;
+    padding: 0px;
+    bottom: -72%;
+    right: -1px;
+    padding-right: 0px;
+}
+
+.roadmap1 {
+    position: relative;
+    left: 100px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 4rem;
+    flex-wrap: wrap;
+    margin-left: 1%;
+}
+
+.box1 {
+    position: relative;
+    width: 500px;
+    height: 650px;
+    background: url(/images/roadmap\ rectangle\ background.svg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: content-box;
+    border-radius: 20px;
+}
+
+.circle {
+    position: absolute;
+    border: 1px solid #77A970;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background: #77A970;
+    margin-top: 30px;
+    left: 30px;
+}
+
+.box1 h2 {
+    position: absolute;
+    width: 281px;
+    color: var(--Color, #53764E);
+    font-family: Rowdies;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 111.111% */
+    letter-spacing: 1.28px;
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+.box1-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.box1-headline {
+    color: var(--Color, #53764E);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 543px;
+    padding-left: 30px;
+
+}
+
+.box1-paragraph {
+    width: 450px;
+    color: var(--Color, #53764E);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--Color, #53764E);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 30px;
+}
+
+.line1 {
+    position: absolute;
+    display: flex;
+    left: 450px;
+    top: 250px;
+}
+
+.box2 {
+    position: absolute;
+    width: 500px;
+    height: 550px;
+    background: url(/images/roadmap\ rectangle\ background.svg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: content-box;
+    border-radius: 20px;
+    left: 50%;
+    top: 700px;
+    margin-left: 3%;
+}
+
+
+
+.box2 h2 {
+    position: absolute;
+    width: 281px;
+    color: var(--Color, #53764E);
+    font-family: Rowdies;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 111.111% */
+    letter-spacing: 1.28px;
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+.box2-image {
+    position: absolute;
+    display: flex;
+    left: 270px;
+    top: 0px;
+}
+
+.box-text-content {
+    padding-top: 250px;
+}
+
+.box3 {
+    position: relative;
+    width: 500px;
+    height: 800px;
+    background: url(/images/roadmap\ rectangle\ background.svg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: content-box;
+    border-radius: 20px;
+    top: 550px;
+}
+
+
+.box3 h2 {
+    position: absolute;
+    width: 281px;
+    color: var(--Color, #53764E);
+    font-family: Rowdies;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 111.111% */
+    letter-spacing: 1.28px;
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+.box3-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.cloud-left2 {
+    position: absolute;
+    padding: 0px;
+    bottom: -350px;
+    left: -100px;
+}
+
+.line2 {
+    position: absolute;
+    display: flex;
+    left: 350px;
+    bottom: 200px;
+}
+
+.line3 {
+    position: absolute;
+    display: flex;
+    left: 35%;
+    top: 100%;
+}
+
+.line4 {
+    position: absolute;
+    display: flex;
+    left: 42%;
+    top: 173%;
+}
+
+.box4 {
+    position: absolute;
+    width: 500px;
+    height: 730px;
+    background: url(/images/roadmap\ rectangle\ background.svg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: content-box;
+    border-radius: 20px;
+    left: 50%;
+    bottom: -75%;
+    margin-left: 3%;
+}
+
+
+
+.box4 h2 {
+    position: absolute;
+    width: 281px;
+    color: var(--Color, #53764E);
+    font-family: Rowdies;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 111.111% */
+    letter-spacing: 1.28px;
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+.box4-image {
+    position: absolute;
+    display: flex;
+    left: 270px;
+    top: 0px;
+}
+
+.box-text-content {
+    padding-top: 250px;
+}
+
+
+
+.box5 {
+    position: absolute;
+    width: 500px;
+    height: 650px;
+    background: url(/images/roadmap\ rectangle\ background.svg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: content-box;
+    border-radius: 20px;
+    bottom: -130%;
+}
+
+
+.box5 h2 {
+    position: absolute;
+    width: 271px;
+    color: var(--Color, #53764E);
+    font-family: Rowdies;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 111.111% */
+    letter-spacing: 1.28px;
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+.box5-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.cloud-left3 {
+    position: absolute;
+    padding: 0px;
+    bottom: -130%;
+    left: -100px;
+}
+
+
+.pawkenomics-image-mobile {
+    display: none;
+}
+
+/* Media Query for Mobile */
+
+
+@media screen and (max-width:1000px) {
+    .box1,.box2,.box3,.box4,.box5 {
+        padding:1rem;
+        width: 400px;
+        height: 650px;
+    }
+
+    
+    .box1-paragraph {
+        padding: 20px;
+        width: 90%;
+        font-size: 15px !important;
+        padding-top: .2rem;
+        padding-bottom: .4rem;
+        margin: 0;
+
+
+    }
+
+    .box2 h2 {
+        position: relative;
+        width: 90%;
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+
+    .pawkenomics {
+        margin: auto;
+        width: 85%;
+        height: auto;
+
+    }
+
+    .pawkenomics-header-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .pawkenomics-section h1 {
+        padding-top: 60px;
+        padding-bottom: 10px;
+        color: #FFF;
+        text-align: center;
+        font-family: Rowdies;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.28px;
+    }
+
+    .pawkenomics-section h1 img {
+        width: 21px;
+        height: 21px;
+        flex-shrink: 0;
+    }
+
+    .pawkenomics-image {
+        display: none;
+    }
+
+    .pawkenomics-image-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .pawkenomics-button {
+        display: flex;
+        width: 20%;
+        height: 20px;
+        padding: 20px 44px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #FFF;
+        text-align: center;
+        font-family: Rowdies;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .pawkenomics-whitepaper {
+        font-size: 14px;
+        display: flex;
+        width: 20%;
+        height: 20px;
+        padding: 20px 44px;
+        justify-content: center;
+    }
+
+    .pawkenomics-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+
+
+    .roadmap h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:820px) {
+    .box {
+        position: relative;
+        width: 90% !important;
+        height: auto !important;
+
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        position: relative !important;
+        width: 90% !important;
+        left: 0%;
+        top: 0px;
+        margin-left: 3%;
+    }
+
+
+
+    .circle {
+        width: 20px;
+        height: 20px;
+        margin-top: 20px;
+        left: 20px;
+    }
+
+    .box h2 {
+        text-align: left;
+        position: relative;
+        width: 60%;
+        font-size: 24px;
+        line-height: 25px;
+        /* 111.111% */
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+
+    .box img {
+        width: 7rem;
+        display: block;
+        position: absolute;
+        top: 2rem;
+        right: 1;
+    }
+
+    .box1-headline {
+        width: fit-content;
+        padding-left: 20px;
+    }
+
+
+
+    .box1-paragraph {
+        padding: 20px;
+        width: 90%;
+        font-size: 15px !important;
+        padding-top: .2rem;
+        padding-bottom: .4rem;
+        margin: 0;
+
+
+    }
+
+
+    .cloud-left {
+        width: 20rem;
+        top: 13%;
+        left: -100px;
+    }
+
+    .cloud-right {
+        display: none;
+    }
+
+    .line1 {
+        width: 13rem;
+        height: 10rem;
+        left: 20%;
+        top: 24.7%;
+        transform: rotate(20deg);
+    }
+
+
+
+    .box2 {
+        left: 0%;
+        top: 0;
+        margin-left: 3%;
+    }
+
+
+
+    .box2-image {
+        position: absolute;
+        display: flex;
+        left: 270px;
+        top: 0px;
+    }
+
+
+
+    .box5 {
+        margin-left: 2.5%;
+    }
+
+
+    .box-text-content {
+        padding-top: 0px;
+    }
+
+
+
+
+
+
+
+    .cloud-right2,
+    .cloud-left3,
+    .cloud-left2 {
+        display: none;
+    }
+
+    .line1,
+    .line2,
+    .line3,
+    .line4 {
+        display: none;
+    }
+
+}

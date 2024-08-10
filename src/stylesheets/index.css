@@ -1,0 +1,1666 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+:root {
+    --secondary-color: #0F3029;
+    --nav-bg: #53764E;
+    --color-1: #53764E;
+    --color-2: #7BAF74;
+    --color-3: #90CD87;
+    --light-bg: #ffffff;
+    --text-light-color: #FFF;
+    --normal-font-size: 16px;
+}
+
+
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    outline: none;
+}
+
+a:focus,
+a:visited,
+a:active {
+    outline: none;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    font-family: Poppins;
+    background: var(--color-1);
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+}
+
+li {
+    list-style: none;
+}
+
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: var(--nav-bg);
+    border-bottom: 1px solid #D4D4D4;
+    box-shadow: 0px 29px 39px 0px rgba(0, 0, 0, 0.01);
+
+}
+
+
+.navbar {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo__box img {
+    width: 66px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+#menuList {
+    display: none;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav__links li a {
+    color: var(--text-light-color);
+    font-size: var(--normal-font-size);
+    font-family: Poppins;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.connect__wallet__btn {
+    width: 200px;
+    height: 42px;
+    border-radius: 12px;
+    background: var(--light-bg);
+    color: var(--color-1);
+    text-align: center;
+    font-family: Rowdies;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.mobile_logo {
+    display: none;
+}
+
+
+.connect__wallet_mobile {
+    display: none;
+}
+
+
+
+.hamburger i {
+    display: none;
+}
+
+
+.flex_btns.mobile {
+    display: none !important;
+}
+
+
+/* The header responsivesness */
+
+@media screen and (max-width: 960px) {
+    .navbar {
+        width: 95%;
+    }
+
+    .navbar .logo__box img {
+        width: 60px;
+        height: 54px;
+    }
+
+    .nav__links {
+        gap: 2rem;
+    }
+
+    .nav__links li a {
+        font-size: 15px;
+        font-weight: 600;
+
+    }
+
+
+    .connect__wallet__btn {
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+
+    .footer__logo img {
+        width: 5rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    header {
+        border-bottom: none;
+    }
+
+
+    .navbar {
+        width: 90%;
+    }
+
+    .connect__wallet__btn {
+        display: none;
+    }
+
+    #menuList {
+        display: flex;
+    }
+
+    .nav__links__con {
+        padding: 2rem 0;
+        width: 0px;
+        height: 100vh;
+        background: var(--color-1);
+        position: fixed;
+        top: 0px;
+        left: 0;
+        z-index: 10;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        transition: .2s ease-in-out;
+        z-index: 12;
+    }
+
+
+
+
+
+    .nav__links__con ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .mobile_logo {
+        display: inherit;
+        width: 4rem;
+    }
+
+    .connect__wallet_mobile {
+        display: inherit;
+    }
+
+    .connect__wallet__btn_mobile {
+
+        width: 200px;
+        height: 39px;
+        border-radius: 12px;
+        background: var(--light-bg);
+        color: var(--color-1);
+        text-align: center;
+        font-family: Rowdies;
+        font-size: 14px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .hamburger i {
+        display: inherit;
+        font-size: 2rem;
+        color: var(--text-light-color);
+        cursor: pointer;
+    }
+
+    
+}
+
+
+
+/* The hero section */
+
+
+.home__hero__section {
+    position: relative;
+    padding: 3rem 0;
+    width: 100%;
+    height: auto;
+    background: var(--color-1);
+}
+
+.home__hero__con {
+    padding: 4rem 0;
+    margin: auto;
+    height: auto;
+    width: 80%;
+    background: var(--secondary-color);
+    border-radius: 24px;
+    border: 5px solid #FFF;
+    position: relative;
+}
+
+.flex__hero__details {
+    width: fit-content;
+    margin: auto;
+}
+
+.flex__hero__details img {
+    margin-left: 2rem;
+    width: 15rem;
+    z-index: 2;
+}
+
+.flex__hero__details h1 {
+    text-align: center;
+    color: #eeeeee;
+    text-align: center;
+    font-family: Rowdies;
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+
+.flex__hero__details p {
+    text-align: center;
+    font-size: 15px;
+    color: var(--text-light-color);
+}
+
+
+.flex-btns {
+    margin: auto;
+    width: fit-content;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.flex-btns button {
+    padding: .7rem 1rem;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Rowdies;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.flex-btns .jp {
+    background: var(--color-1);
+    color: var(--text-light-color);
+}
+
+.flex-btns .wp {
+    background: var(--text-light-color);
+    color: var(--color-1);
+}
+
+
+
+
+.twinkle1,
+.twinkle2 {
+    position: absolute;
+}
+
+.twinkle1 {
+    width: 3.5rem;
+    height: 3.5rem;
+    top: 40%;
+    left: 10%;
+}
+
+.twinkle2 {
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 20%;
+    right: 25%;
+}
+
+.cf1,
+.cf2,
+.cf3,
+.cf4,
+.avo5,
+.hc1,
+.hc2,
+.avo6,
+.avo7,
+.avoa,
+.avob,
+.avoc {
+    position: absolute;
+}
+
+.cf1 {
+    top: 19%;
+    right: 24%;
+}
+
+.cf2 {
+    top: 41%;
+    right: 26%;
+}
+
+.cf3 {
+    top: 50%;
+    left: 18%;
+}
+
+.cf4 {
+    top: 10%;
+    left: 22%;
+}
+
+.avo5 {
+    width: 7rem;
+    height: 7rem;
+    top: 6%;
+    left: 16%;
+}
+
+
+.avoa {
+    width: 4rem;
+    height: 4rem;
+    top: 16%;
+    right: 16%;
+}
+
+.avob {
+    width: 7rem;
+    height: 7rem;
+    top: 52%;
+    right: 13%;
+}
+
+.avoc {
+    width: 6rem;
+    height: 6rem;
+    top: 52%;
+    left: 10.6%;
+}
+
+.avo6 {
+    width: 2.6rem;
+    height: 2.6rem;
+    top: 5%;
+    right: 26%;
+}
+
+.avo7 {
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 90%;
+    left: 6%;
+}
+
+
+.hc1 {
+    top: 26%;
+    right: -13%;
+}
+
+
+.hc2 {
+    top: 26%;
+    left: -17%;
+}
+
+
+.fhd_image {
+    position: absolute;
+    z-index: 3;
+}
+
+.fhd_image.bg-circle {
+    position: absolute;
+    top: 9%;
+    z-index: 1;
+}
+
+
+
+.fhd_box h1 {
+    padding-top: 16rem;
+}
+
+
+
+
+/* The roadmap styling */
+
+.roadmap{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+
+.roadmap h2{
+    color: #fff;
+    text-align: center;
+    font-family: "Rowdies";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: 1.28px;
+    text-transform: capitalize;
+}
+
+.roadmap_con{
+    position: relative;
+   padding-top: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.r_box{
+    position: relative;
+    padding: 1rem;
+    width: 45%;
+    background: var(--text-light-color);
+    background-image: url("./images//pattern.png");
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+.r_box.right{
+    margin-top: -10%;
+    margin-left: auto;
+}
+
+.r_box .r_box_top{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.r_box .r_box_top .left h3{
+    font-family: Rowdies;
+    font-size: 1.5rem;
+    color: var(--color-1);
+    width: 66%;
+}
+
+.r_box_btm{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.r_box strong{
+    color: var(--color-1);
+}
+
+.r_box p{
+    color: var(--color-1);
+}
+.r_box_top .avatar{
+    width: 13rem;
+    height: 10rem;
+}
+
+
+/* The clouds for roadmap */
+
+
+.r_box .sc{
+    width: 17rem;
+    position: absolute;
+    z-index: -1;
+}
+
+.sc.left1{
+    bottom: 10%;
+    left: -30%;
+}
+
+
+
+
+.sc.right1{
+    bottom: 18%;
+    right: -30%;
+}
+
+.sc.left2{
+    bottom: 10%;
+    left: -30%;
+}
+
+
+
+.sc.right2{
+    bottom: 18%;
+    right: -30%;
+}
+
+
+.sc.left3{
+    width: 24rem;
+    bottom: -20%;
+    left: -30%;
+}
+
+
+/* The connector */
+
+.connector img{
+    position: absolute;
+    width: 20rem;
+}
+
+
+.connector .toright{
+   top: 6%;
+   left: 43%;
+}
+
+.connector .toleft{
+    top: 25%;
+    right: 45%;
+ }
+
+
+ .connector .toright2{
+    top: 49%;
+    left: 43%;
+ }
+
+ 
+
+ .connector .toleft2{
+    top: 79%;
+    right: 29%;
+ }
+
+
+ @media (max-width: 920px) {
+    
+    /* The connector */
+    .sc.left3{
+        width: 17rem;
+        bottom: 10%;
+        left: -30%;
+    }
+
+    .connector .toright{
+        top: 12%;
+        left: 48%;
+     }
+     
+     .connector .toleft{
+         top: 29%;
+         right: 50%;
+      }
+     
+     
+      .connector .toright2{
+         top: 53%;
+         left: 48%;
+      }
+     
+      
+     
+      .connector .toleft2{
+         top: 75%;
+         right: 12%;
+      }
+     }
+
+
+
+
+
+/* The footer styles */
+
+footer {
+    position: relative;
+    padding: 5rem 0 0 0;
+    margin-top: 7rem;
+    width: 100%;
+    background: var(--secondary-color);
+}
+
+.footer_con {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2;
+}
+
+.footer__logo img {
+    width: 7rem;
+}
+
+.footer-first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.footer_links_section {
+    display: flex;
+    gap: 6rem;
+}
+
+.link_section_box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.link_section_box h3 {
+    color: var(--text-light-color);
+    font-family: Rowdies;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.link_section_box ul {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.link_section_box a {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+
+.footer-third {
+    padding: 2rem 0;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+.footer-third p {
+    color: #FFF;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+.footer-copyright {
+    padding: 1rem 0;
+    border-top: 1px solid var(--text-light-color);
+    width: 100%;
+    text-align: center;
+    color: var(--text-light-color);
+}
+
+.flex_btns {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.flex_btns button {
+    padding: .8rem 1rem;
+    color: var(--Color, #53764E);
+    text-align: center;
+    font-family: Rowdies;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+/* Footer responsiveness */
+
+@media screen and (max-width: 960px) {
+    .footer_con {
+        width: 96%;
+    }
+
+
+    .footer__logo img {
+        width: 5rem;
+    }
+
+
+    .footer_links_section {
+
+        gap: 4rem;
+    }
+
+
+
+    .link_section_box h3 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+footer {
+        margin-top: 2rem;
+        padding: 2rem 0 0 0;
+    }
+
+    .footer_con {
+        width: 90%;
+
+    }
+
+    .footer__logo img {
+        width: 7rem;
+    }
+
+    .footer-first {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+
+    .footer_links_section {
+        margin: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .link_section_box {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-left: 17%;
+    }
+
+
+
+    .footer-third {
+        padding: 1.5rem 0;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-third p {
+        font-size: 13px;
+    }
+
+    .footer-copyright {
+        font-size: 15px;
+    }
+
+    .flex_btns {
+        display: none;
+    }
+
+    .flex_btns.mobile {
+        display: flex !important;
+        gap: 4rem;
+    }
+
+    .flex_btns.mobile button {
+        width: 160px;
+    }
+
+
+}
+
+
+ @media (max-width: 768px) {
+    
+/* The connector */
+
+.connector img{
+    width: 13rem;
+}
+
+
+.connector .toright{
+   top:14%;
+   left: 27%;
+   transform: rotate(15deg);
+}
+
+.connector .toleft{
+    top: 32.6%;
+    right: 30%;
+ }
+
+
+ .connector .toright2{
+    top: 56.6%;
+    left: 27%;
+    transform: rotate(15deg);
+ }
+
+ 
+
+ .connector .toleft2{
+    top: 76%;
+    right: 30%;
+ }
+ }
+
+/* Rooadmap responsiveness */
+
+@media (max-width: 920px){
+
+    .roadmap_con{
+        margin-bottom: 4rem;
+        width: 95%;
+        gap: 15rem;
+    }
+    .r_box{
+        width: 50%;
+    }
+    
+    }
+
+@media (max-width: 768px){
+    
+.roadmap h2{
+    font-size: 35px;
+}
+
+.roadmap_con{
+    margin-bottom: 4rem;
+    width: 90%;
+    gap: 15rem;
+}
+
+.r_box{
+    width: 100%;
+}
+
+.r_box.right{
+    margin-top: 0;
+    margin-left: 0;
+}
+
+
+
+
+
+.r_box .r_box_top .left h3{
+    font-size: 1.3rem;
+    width: 76%;
+}
+
+
+.r_box p{
+    color: var(--color-1);
+}
+.r_box_top .avatar{
+    width: 11rem;
+    height: 8rem;
+}
+
+}
+
+
+
+
+/* The faq styling */
+
+
+.faq {
+    position: relative;
+    margin-top: 5rem;
+    padding: 4rem 0 2rem 2rem;
+    width: 100%;
+    height: 100%;
+    background:#0F3029;
+}
+
+.faq h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #FFF;
+    font-family: Rowdies;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.faq_con {
+    margin: auto;
+    width: 70%;
+    height: 90%;
+}
+
+.faq_flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.faq p {
+    font-size: 16px;
+    padding: 14px;
+
+}
+
+
+.accordion {
+    margin-top: .3rem;
+    width: 100%;
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+
+.faqext {
+   
+    color: var(--text-light-color);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s ease;
+}
+
+.faqext p {
+    font-size: .9rem;
+    text-align: left;
+    padding: .5%;
+}
+
+
+
+.accordion:after {
+    font-size: 1.9rem;
+    content: '\2039';
+    float: right;
+    color: var(--text-light-color);
+    font-weight: 300 !important;
+    transform: rotate(-90deg);
+
+}
+
+.active:after {
+    content: "\2039";
+    color: var(--text-light-color);
+    transform: rotate(90deg);
+    position: relative;
+    margin-left: 5px;
+
+
+}
+
+
+.accordion__box {
+    padding: .5em 1rem;
+    background: #7BAF74;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+
+/* 
+The smart contract section styles */
+
+
+.smart__contract {
+    position: relative;
+    padding: 6rem 0;
+    width: 100%;
+    height: auto;
+    background: #0F3029;
+    background-image: url("../assets//landingPage/Header tree 6.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.sc__con {
+    padding: 1rem 0;
+    margin: auto;
+    width: 59%;
+    height: auto;
+    background-image: url("../assets/landingPage//shibadino.png");
+    background-position: 50% 40%;
+    background-size: 10;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    border: 5px solid #FFF;
+    background-color: var(--color-1);
+}
+
+.sc__con_details {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 0;
+    margin: auto;
+    width: 90%;
+}
+
+
+.sc__con_details h2 {
+    text-align: center;
+    color: var(--text-light-color);
+    text-align: center;
+    font-family: Rowdies;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.28px;
+}
+
+
+.crypto_info {
+    padding: 1rem;
+    margin:15rem auto -10rem auto;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+.crypto_info_top,
+.crypto_info_bottom {
+    display: flex;
+}
+
+.crypto_info_top {
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+.crypto_info_top .each_box {
+    color: #0F3029;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.crypto_info_top .each_box h4 {
+    color: #0F3029;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.crypto_info_bottom {
+    flex-direction: column;
+}
+
+.crypto_info_bottom .copy_address {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #4D7249 0%, #557E52 100%);
+    border-radius: 4px;
+    border: 3px solid #4D7249;
+}
+
+
+
+.crypto_info_bottom label {
+    color: #0F3029;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.crypto_info_bottom .address {
+    width: 80%;
+    padding: .5rem;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.crypto_info_bottom .copy {
+    float: right;
+    width: 20%;
+    padding: .5rem;
+    background: var(--text-light-color);
+    text-align: center;
+    font-family: Rowdies;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+.smart__contract .jp {
+    padding: .5rem 1rem;
+    margin: auto;
+    width: fit-content;
+    color: #53764E;
+    font-family: Rowdies;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+
+.index__footer {
+    margin-top: -3rem;
+}
+
+
+
+
+@media screen and (max-width:1200px){
+    
+
+    .crypto_info_bottom .copy_address {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+    }
+
+    .crypto_info_bottom .copy {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+/* For tab screen */
+@media screen and (max-width: 1024px) {
+
+    .cf1 {
+        top: 9%;
+        right: 4%;
+    }
+
+    .cf2 {
+        top: 41%;
+        right: 10%;
+    }
+
+    .cf3 {
+        top: 50%;
+        left: 5%;
+    }
+
+    .cf4 {
+        top: 5%;
+        left: 7%;
+    }
+
+    .avo5 {
+        width: 6rem;
+        height: 6rem;
+        top: 7%;
+        left: -2%;
+    }
+
+
+    .avoa {
+        width: 4rem;
+        height: 4rem;
+        top: 7%;
+        right: -8%;
+    }
+
+    .avob {
+        width: 5rem;
+        height: 5rem;
+        top: 55%;
+        right: -8%;
+    }
+
+    .avoc {
+        width: 5rem;
+        height: 5rem;
+        top: 52%;
+        left: -6%;
+    }
+
+    .avo6 {
+        width: 2.6rem;
+        height: 2.6rem;
+        top: 5%;
+        right: 26%;
+    }
+
+    .avo7 {
+        width: 2.5rem;
+        height: 2.5rem;
+        top: 90%;
+        left: 6%;
+
+    }
+
+
+    .hc1 {
+        width: 10rem !important;
+        height: 10rem !important;
+        top: 26%;
+        right: -7%;
+    }
+
+
+    .hc2 {
+        width: 10rem !important;
+        height: 10rem !important;
+        top: 26%;
+        left: -10%;
+    }
+
+
+
+    .fhd_image {
+        position: absolute;
+        z-index: 3;
+    }
+
+    .fhd_image.bg-circle {
+        position: absolute;
+        top: 9%;
+        z-index: 1;
+    }
+
+
+
+    .fhd_box h1 {
+        padding-top: 16rem;
+    }
+
+    
+
+}
+
+
+@media screen and (max-width: 770px) {
+
+    .utils img {
+        visibility: hidden !important;
+    }
+
+    
+
+}
+
+
+
+/* For mobile screen */
+@media screen and (max-width: 768px) {
+
+    /* The hero for mobile */
+
+    .home__hero__section {
+        padding: 2rem 0;
+        height: auto;
+    }
+
+    .home__hero__con {
+        padding: 2rem 0;
+        width: 95%;
+    }
+
+    .flex__hero__details img {
+        width: 14rem;
+    }
+
+    .flex__hero__details h1 {
+        font-size: 37px;
+        font-weight: 600;
+    }
+
+
+    .flex__hero__details p {
+        font-size: 14px;
+    }
+
+
+    .flex-btns button {
+        z-index: 1;
+    }
+
+
+    .utils img {
+        visibility: visible !important;
+    }
+
+
+
+    .twinkle1,
+    .twinkle2 {
+        position: absolute;
+    }
+
+    .twinkle1 {
+        width: 3rem;
+        height: 3rem;
+        top: 40%;
+        left: 10%;
+    }
+
+    .twinkle2 {
+        width: 2.5rem;
+        height: 2.5rem;
+        top: 20%;
+        right: 25%;
+    }
+
+    .cf1,
+    .cf2,
+    .cf3,
+    .cf4,
+    .avo5,
+    .hc1,
+    .hc2,
+    .avo6,
+    .avo7,
+    .avoa,
+    .avob,
+    .avoc {
+        position: absolute;
+        width: 80%;
+        height: 6rem;
+    }
+
+    .cf1 {
+        top: 19% !important;
+        right: -1% !important;
+
+    }
+
+    .cf2 {
+        top: 41% !important;
+        right: 2% !important;
+    }
+
+    .cf3 {
+        top: 50% !important;
+        left: 1% !important;
+    }
+
+    .cf4 {
+        top: 10% !important;
+        left: 0% !important;
+    }
+
+    .avo5 {
+        width: 2rem;
+        height: 2rem;
+        top: 1% !important;
+        left: 32% !important;
+        transform: rotate(90deg);
+    }
+
+
+    .avoa {
+        width: 4rem;
+        height: 5rem;
+        top: 56% !important;
+        right: 60% !important;
+
+    }
+
+    .avob {
+        width: 4rem;
+        height: 4rem;
+        top: 49% !important;
+        left: 52% !important;
+    }
+
+    .avoc {
+        width: 4rem;
+        height: 4rem;
+        top: 16% !important;
+        left: 59% !important;
+
+    }
+
+    .avo6 {
+        width: 4rem;
+        height: 4rem;
+        top: 7% !important;
+        right: 54% !important;
+        transform: rotate(-80deg);
+    }
+
+    .avo7 {
+        display: none;
+    }
+
+
+    .hc1 {
+        width: 1rem;
+        height: 1rem;
+        top: 36% !important;
+        right: -21% !important;
+    }
+
+
+    .hc2 {
+        width: 1rem;
+        height: 1rem;
+        top: 36% !important;
+        left: -29% !important;
+    }
+
+
+
+    /* The faq styling */
+
+    .faq{
+        margin-top: -10rem;
+    }
+
+    .faq h2 {
+        text-align: center;
+        color: #FFF;
+        font-family: Rowdies;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+
+    .faq_con {
+        width: 95%;
+        height: 100%;
+    }
+
+    .faq_flex {
+        flex-direction: column;
+    }
+
+
+    .faq p {
+        font-size: 14px;
+        padding: 12px;
+
+    }
+
+
+
+    /* 
+The smart contract section styles */
+
+
+    .smart__contract {
+        padding: 4rem 0;
+    }
+
+
+    .sc__con {
+        width: 90%;
+    }
+
+    .sc__con_details {
+        width: 95%;
+        height: 60%;
+    }
+
+
+    .sc__con_details h2 {
+        font-size: 32px;
+    }
+
+
+    .crypto_info {
+        gap: 2rem;
+    }
+
+
+
+    .crypto_info_top .each_box h4 {
+        font-size: 18px;
+    }
+
+
+
+    .crypto_info_bottom .copy_address {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+    }
+
+
+    .crypto_info_bottom .address {
+        font-size: 14px;
+    }
+
+    .crypto_info_bottom .copy {
+        width: 100%;
+    }
+
+    .index__footer {
+        margin-top: -1rem;
+    }
+
+}
+
+
+
+/* For smaller screen */
+
+
+@media screen and (max-width: 468px) {
+    .utils {
+        display: inherit;
+    }
+
+    .faq_con {
+        margin-right: 10%;
+        width: 100%;
+    }
+
+    .crypto_info_bottom .address {
+        font-size: 10px;
+    }
+
+}
+
+
+
+/* For larger screen */
+
+
+@media (min-width:1680px){
+    .avob {
+        width: 7rem;
+        height: 7rem;
+        top: 52%;
+        right: 19%;
+    }
+}

@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500&family=Rowdies:wght@400;700&display=swap');
+
+
+* {
+    font-style: normal;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+}
+
+section {
+    width: 100%;
+    height: auto;
+}
+
+.media {
+    background-color: #52794e;
+    text-align: center;
+    padding: 4% 10%;
+    height: 100%;
+}
+
+.media .media-container h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Rowdies";
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 1.28px;
+}
+
+.media .media-container .media-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 10px;
+    padding: 6%;
+}
+
+.media .media-container .media-box div {
+    background-color: #0F3029;
+    border-radius: 14px;
+    width: 273px;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.community {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.com_tree{
+    width: 40%;
+}
+
+.com_tree img{
+    width: 100%;
+}
+
+
+.community-box{
+    width:50%;
+}
+
+
+.community .community-box h2 {
+    text-align: right;
+    color: #FFF;
+    font-family: "Rowdies";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 70.4px;
+    letter-spacing: 1.28px;
+}
+
+.community .community-box p {
+    text-align: right;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.community .community-box .link-flex {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.community .community-box .link-flex div {
+    padding: 3px 7px;
+}
+
+.community .community-box .link-flex div button {
+    border-radius: 8px;
+    color:#53764E;
+    width: 180px;
+    height: 45px;
+    padding: 10px 20px;
+    font-family: "Rowdies";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.community .community-box .link-flex div button img {
+    width: 30px;
+    height: 30px;
+    line-height: normal;
+}
+
+.community .community-box .img12 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right: -10%;
+    bottom: 60%;
+}
+
+
+@media screen and (max-width:1600px){
+    .media .media-container .media-box div{
+        width: fit-content;
+    }
+
+    .media .media-container .media-box div img{
+        padding: .6rem;
+        width: 16rem;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .media .media-container .media-box{
+        margin-top: 40px;
+        padding: 0;
+    }
+
+
+
+
+    .community {
+        padding: 20% 10%;
+    }
+    .community .community-box h2 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .community .community-box p {
+        font-size: 30px;
+    }
+    .community .community-box .img12 {
+        width: 210px;
+        height: 210px;
+        left: 86%;
+        bottom: 62%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .media .media-container h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .media .media-container .img11 {
+        width: 170px;
+        height: 170px;
+        object-fit: contain;
+    }
+    .media .media-container .media-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin-top: 0;
+    }
+
+    .media .media-container .media-box div{
+        width: fit-content;
+    }
+
+
+    .media .media-container .media-box div img{
+        padding: .6rem;
+        width: 14rem;
+    }
+
+
+    .community {
+        padding: 20% 10%;
+    }
+    .community .community-box h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .community .community-box p {
+        font-size: 20px;
+    }
+    .community .community-box .img12 {
+        width: 190px;
+        height: 190px;
+        left: 80%;
+        bottom: 62%;
+    }
+
+    .community .community-box .link-flex {
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+   
+}
+
+
+@media screen and (max-width: 768px) {
+    .media .media-container .media-box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .media .media-container .media-box div{
+        width: fit-content;
+    }
+
+    .media .media-container .media-box div img{
+        padding: .6rem;
+        width: 10rem;
+    }
+
+   
+    
+}
+
+
+@media screen and (max-width: 480px){
+    .media .media-container .media-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 0;
+    }
+    .media .media-container .media-box div {
+        border-radius: 14px;
+        width: 160px;
+        height: 60px;
+        margin: auto auto;
+    }
+    
+    .media .media-container .media-box div img{
+        width: 140px;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+    .community .community-box h2 {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .community .community-box p {
+        font-size: 12px;
+    }
+    .community .community-box .img12 {
+        width: 120px;
+        height: 150px;
+        left: 76%;
+        bottom: 62%;
+    }
+    .community .community-box h2 img {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    .community .community-box .link-flex div button {
+        width: 80px;
+        height: 30px;
+        font-size: 9px;
+        line-height: 25px;
+        padding: 3px 7px;
+    }
+    .community .community-box .link-flex div button img {
+        width: 20px;
+        height: 20px;
+        line-height: normal;
+    }
+} 
+
+@media screen and (max-width: 380px) {
+    .media .media-container .media-box div {
+        border-radius: 14px;
+        width: 120px;
+        height: 60px;
+    }
+    .media .media-container .media-box div img{
+        width: 120px;
+        height: 40px;
+    }
+
+    .community .community-box h2 {
+        font-size: 12px;
+        line-height: 30px;
+    }
+    .community .community-box p {
+        font-size: 11px;
+    }
+    .community .community-box .img12 {
+        width: 100px;
+        height: 110px;
+        left: 76%;
+        bottom: 65%;
+    }
+    .community .community-box .link-flex div button {
+        width: 80px;
+        height: 20px;
+        border-radius: 5px;
+        font-size: 7px;
+        line-height: 20px;
+        padding: 2px 6px;
+    }
+    .community .community-box .link-flex div button img {
+        width: 15px;
+        height: 15px;
+        line-height: normal;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .community .community-box h2 {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .community .community-box .img12 {
+        width: 90px;
+        height: 100px;
+        left: 78%;
+        bottom: 69%;
+    }
+}
