@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
 
-.pawkenomics{
+.pawkenomics {
     height: auto;
- 
+
 }
+
 .pawkenomics-section {
     margin-top: 70px;
     display: flex;
@@ -40,7 +41,7 @@
     position: relative;
 }
 
-.pawkenomics-section h1 .star{
+.pawkenomics-section h1 .star {
     margin-bottom: 2rem;
 }
 
@@ -96,23 +97,24 @@
     line-height: normal;
 }
 
-.junglepaw_box{
+.junglepaw_box {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.junglepaw_box img{
+.junglepaw_box img {
     width: 50%;
 }
 
-.TOTAL_SUPPLY{
+.TOTAL_SUPPLY {
     font-size: 1.8rem;
     color: #fff;
     text-align: center;
-    margin:1rem 0;
+    margin: 1rem 0;
 }
+
 .pawkenomics-buttons {
     display: flex;
     flex-direction: row;
@@ -121,91 +123,256 @@
     padding-bottom: 50px;
 }
 
-.absolute_buttons button{
+
+.absolute_buttons button {
     color: var(--Color-1, #53764E);
-text-align: center;
-font-family: Rowdies;
-font-size: 16px;
-font-weight: 600;
-border-radius: 16px;
-background: #FFF;
-display: flex;
-width: 200px;
-height: 50px;
-padding: 5px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-position: absolute;
+    text-align: center;
+    font-family: Rowdies;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 16px;
+    background: #FFF;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    position: absolute;
 }
 
-.absolute_clouds img{
+.absolute_clouds img {
     position: absolute;
 }
 
 
 
-.absolute_buttons .a{
-    top:18%;
-    left:15%;
+.absolute_buttons .a {
+    top: 18%;
+    left: 15%;
 }
 
-
-.absolute_clouds .ac{
+.absolute_clouds .ac {
     width: 7rem;
-    top:10%;
-    left:19%;
+    top: 10%;
+    left: 19%;
 }
 
-
-
-.absolute_buttons .b{
-    top:40%;
-    left:-10%;
+.absolute_buttons .b {
+    top: 40%;
+    left: -10%;
 }
 
-
-.absolute_clouds .bc{
+.absolute_clouds .bc {
     width: 10rem;
-    top:30%;
-    left:-9%;
+    top: 30%;
+    left: -9%;
+}
+
+.absolute_buttons .c {
+    top: 70%;
+    left: 10%;
+}
+
+.absolute_clouds .cc {
+    width: 7rem;
+    top: 62%;
+    left: 15%;
+}
+
+.absolute_buttons .d {
+    top: 30%;
+    right: -10%;
+}
+
+.absolute_clouds .dc {
+    width: 12rem;
+    top: 17%;
+    right: -10%;
+}
+
+.absolute_buttons .e {
+    top: 65%;
+    right: -3%;
+}
+
+.absolute_clouds .ec {
+    width: 9rem;
+    top: 55%;
+    right: -4%;
 }
 
 
-.absolute_buttons .c{
-    top:70%;
-    left:10%;
+@media screen and (max-width:1200px) {
+
+
+
+    .absolute_buttons .b {
+        left: -8%;
+    }
+
+    .absolute_clouds .bc {
+        width: 10rem;
+        top: 28%;
+        left: -9%;
+    }
+
+
+
+    .absolute_buttons .d {
+        top: 30%;
+        right: -8%;
+    }
+
 }
 
-.absolute_clouds .cc{
-    width:7rem;
-    top:62%;
-    left:15%;
+
+
+@media screen and (max-width:1100px) {
+
+    .absolute_buttons .d {
+        top: 32%;
+    }
+
 }
 
 
-.absolute_buttons .d{
-    top:30%;
-    right:-10%;
+@media screen and (max-width:890px) {
+
+
+    .absolute_buttons button {
+        font-size: 14px;
+        border-radius: 13px;
+        width: 160px;
+        height: 30px;
+        padding: 1rem;
+    }
+
+    .absolute_clouds img {
+        position: absolute;
+    }
+
+
+
+    .absolute_buttons .a {
+        left: 5%;
+    }
+
+    .absolute_clouds .ac {
+        width: 5rem;
+        top: 10%;
+        left: 13%;
+    }
+
+    .absolute_buttons .b {
+        left: -5%;
+    }
+
+    .absolute_clouds .bc {
+        width: 7rem;
+        top: 30%;
+        left: -5%;
+    }
+
+
+    .absolute_clouds .cc {
+        top: 60%;
+    }
+
+
+
+    .absolute_clouds .dc {
+        width: 9rem;
+        top: 16%;
+    }
+
+    .absolute_buttons .e {
+        top: 65%;
+        right: -3%;
+    }
+
+    .absolute_clouds .ec {
+        width: 7rem;
+        top: 55%;
+        right: -4%;
+    }
+
 }
 
 
-.absolute_clouds .dc{
-    width:12rem;
-    top:17%;
-    right:-10%;
+
+@media screen and (max-width:610px) {
+
+
+    .absolute_buttons button {
+        font-size: 10px;
+        width: fit-content;
+        padding: .5rem;
+        border-radius: 10px;
+    }
+
+  
+
+
+
+    .absolute_buttons .a {
+        left: 1%;
+    }
+
+    .absolute_clouds .ac {
+        width: 4rem;
+        left: 2%;
+    }
+
+    .absolute_buttons .b {
+        width: 100px;
+        left: -7%;
+    }
+
+    .absolute_clouds .bc {
+        width: 5rem;
+        left: -7%;
+    }
+
+    
+    .absolute_buttons .c {
+        padding:  1.2rem;
+        width: 5rem;
+        top: 60%;
+        left: 7%;
+    }
+
+    .absolute_clouds .cc {
+        width: 5rem;
+        left: 7%;
+        top: 50%;
+    }
+
+
+
+    .absolute_clouds .dc {
+        width: 7rem;
+        top: 20%;
+    }
+
+    .absolute_buttons .e {
+        right: -6%;
+    }
+
+    .absolute_clouds .ec {
+        width: 7rem;
+        top: 53%;
+        right: -7%;
+    }
+
+    .TOTAL_SUPPLY {
+        font-size: 1.4rem;
+    }
+
 }
 
-.absolute_buttons .e{
-    top:65%;
-    right:-3%;
-}
 
-.absolute_clouds .ec{
-    width:9rem;
-    top:55%;
-    right:-4%;
-}
 
 .roadmap {
     position: relative;
@@ -233,10 +400,10 @@ position: absolute;
 .cloud-right {
     position: absolute;
     padding: 0px;
-    top:900px;
+    top: 900px;
     right: -100px;
-    
-   
+
+
 }
 
 .cloud-right2 {
@@ -547,13 +714,18 @@ position: absolute;
 
 
 @media screen and (max-width:1000px) {
-    .box1,.box2,.box3,.box4,.box5 {
-        padding:1rem;
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5 {
+        padding: 1rem;
         width: 400px;
         height: 650px;
     }
 
-    
+
     .box1-paragraph {
         padding: 20px;
         width: 90%;

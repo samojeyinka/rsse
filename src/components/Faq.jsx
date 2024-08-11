@@ -9,9 +9,6 @@ const Faq = () => {
       <section class="faq">
         <h2>ShibaDino FAQS</h2>
         <div class="faq_flex">
-          {/* <div class="faq_img">
-            <img src={faqImage} />
-          </div> */}
           <div class="faq_con">
             <Accordion
               sx={{

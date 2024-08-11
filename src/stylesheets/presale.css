@@ -3,6 +3,7 @@ main,
     display: flex;
     flex-direction: column;
     gap: 4rem;
+    overflow: hidden !important;
 
 }
 
@@ -13,8 +14,8 @@ main,
     padding-top: 15rem;
     width: 100%;
     height: auto;
-    background-image: url('../assets//presaleimages/heroimg.png');
-    background-position: center;
+    background-image: url('../assets/PresalePagesImages/Headertree4.png');
+    background-position: 70% 75%;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -326,9 +327,9 @@ main,
 
 
 .presale_hero-con .herov {
-    width: 17rem;
-    left: 35%;
-    top: -14rem;
+    width: 22rem;
+    left: 31%;
+    top: -13rem;
     z-index: 10;
 }
 
@@ -353,17 +354,17 @@ main,
 
 
 .presale_hero-con .tp.tl{
-    width: 7rem;
-    left: 31.1%;
-    top: -2rem;
+    width: 9rem;
+    left: 26.1%;
+    top: -9rem;
     z-index: 2;
 }
 
 
 .presale_hero-con .tp.tr{
-    width: 7rem;
-    right: 36.1%;
-    top: -6rem;
+    width: 8rem;
+    right: 32.1%;
+    top: -12rem;
     z-index: 1;
 }
 
@@ -399,31 +400,34 @@ main,
 }
 
 .presale_hero-con .cloud1 {
-    width: 5rem;
-    top: 5rem;
+    width: 8rem;
+    top: 3rem;
     left: 9%;
 }
 
 
-.presale_hero-con .cloud2 {
-    width: 6rem;
-    top: 7rem;
-    left: 21%;
+.presale_hero-con .cc1{
+    width: 7rem;
+    top: -3rem;
+    left: -3rem;
 }
+
+
+.presale_hero-con .cc2{
+    width: 10rem;
+    top: -4rem;
+    right: -5rem;
+}
+
+
 
 
 
 .presale_hero-con .cloud3 {
-    width: 5rem;
-    top: 5rem;
-    right: 8%;
-}
-
-
-.presale_hero-con .cloud4 {
-    width: 6rem;
-    top: 7rem;
+    width: 8rem;
+    top: 3rem;
     right: 19%;
+
 }
 
 

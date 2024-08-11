@@ -868,11 +868,11 @@ footer {
 
     .flex_btns.mobile {
         display: flex !important;
-        gap: 4rem;
+        gap: 2rem;
     }
 
     .flex_btns.mobile button {
-        width: 160px;
+        width: 140px;
     }
 
 
@@ -979,7 +979,7 @@ footer {
 .faq {
     position: relative;
     margin-top: 5rem;
-    padding: 4rem 0 2rem 2rem;
+    padding-top: 2rem;
     width: 100%;
     height: 100%;
     background:#0F3029;
@@ -1327,16 +1327,16 @@ The smart contract section styles */
 
 
     .hc1 {
-        width: 10rem !important;
-        height: 10rem !important;
+        width: 8rem !important;
+        height: 7rem !important;
         top: 26%;
         right: -7%;
     }
 
 
     .hc2 {
-        width: 10rem !important;
-        height: 10rem !important;
+        width: 7rem !important;
+        height: 8rem !important;
         top: 26%;
         left: -10%;
     }
@@ -1522,7 +1522,7 @@ The smart contract section styles */
 
     .hc1 {
         width: 1rem;
-        height: 1rem;
+        height: .5rem;
         top: 36% !important;
         right: -21% !important;
     }
@@ -1530,7 +1530,7 @@ The smart contract section styles */
 
     .hc2 {
         width: 1rem;
-        height: 1rem;
+        height: .5rem;
         top: 36% !important;
         left: -29% !important;
     }

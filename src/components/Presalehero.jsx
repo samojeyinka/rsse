@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from "react";
 import bigCircle from "../assets/images/bigCircle.svg";
-import cloudtop1 from "../assets/images/cloud-top-1.svg";
-import cloudtop2 from "../assets/images/cloud-top-2.svg";
-import herov from "../assets/images/herov.png";
+import cloudtop1 from "../assets/PresalePagesImages/r2.png";
+import cloudtop2 from "../assets/PresalePagesImages/r1.png";
+import ctr from "../assets/PresalePagesImages/ctr.png";
+import cco from "../assets/PresalePagesImages/cco.png";
+import l from "../assets/PresalePagesImages/l.png";
+import r from "../assets/PresalePagesImages/r.png";
+import herov from "../assets/PresalePagesImages/cloud 2 3.png";
 import avocado1 from "../assets/images/avocado1.svg";
 import avocado2 from "../assets/images/avocado2.svg";
 import avocado3 from "../assets/images/avocado3.svg";
@@ -570,20 +574,16 @@ const PresaleHero = () => {
           <img src={bigCircle} className="bigCircle" />
           <img src={miniCircle} className="miniCircle" />
 
-          <img src={cloud1} className="cloud cloud1" />
-          <img src={cloud2} className="cloud cloud2" />
-          <img src={cloud3} className="cloud cloud3" />
-          <img src={cloud4} className="cloud cloud4" />
+          <img src={cloudtop1} className="c cloud1" />
+          <img src={ctr} className="cloud cloud3" />
+         
 
-          <img src={svg1} className="bcloud svg1" />
-          <img src={svg2} className="bcloud svg2" />
-          <img src={svg3} className="bcloud svg3" />
-          <img src={svg4} className="bcloud svg4" />
+          <img src={l} className="bcloud svg1" />
+          <img src={r} className="bcloud svg3" />
 
-          <img src={avocado1} className="avo avo1" />
-          <img src={avocado2} className="avo avo2" />
-          <img src={avocado3} className="avo avo3" />
-          <img src={avocado4} className="avo avo4" />
+          <img src={ctr} className="avo cc1" />
+          <img src={cco} className="avo cc2" />
+     
 
           <img src={cloudtop1} className="tp tl" />
           <img src={cloudtop2} className="tp tr" />

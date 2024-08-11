@@ -15,9 +15,10 @@ section {
 }
 
 .media {
+    padding-top: 2rem;
+    width: 100%;
     background-color: #52794e;
     text-align: center;
-    padding: 4% 10%;
     height: 100%;
 }
 
@@ -32,21 +33,24 @@ section {
 }
 
 .media .media-container .media-box {
+
+    padding-top: 2rem;
+    margin: auto;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
     gap: 10px;
-    padding: 6%;
 }
 
 .media .media-container .media-box div {
     background-color: #0F3029;
     border-radius: 14px;
-    width: 273px;
+    width: 100%;
     height: 105px;
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
 
 
@@ -137,41 +141,38 @@ section {
 
 @media screen and (max-width:1600px){
     .media .media-container .media-box div{
-        width: fit-content;
+        width: 100%;
+        
     }
 
     .media .media-container .media-box div img{
         padding: .6rem;
-        width: 16rem;
+        width: 90%;
+
     }
 }
 
+
+@media screen and (max-width:1140px){
+    .community .community-box h2 {
+        font-size: 30px;
+        line-height: 50.4px;
+    }
+    
+    .community .community-box p {
+        font-size: 20px;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .media .media-container .media-box{
         margin-top: 40px;
         padding: 0;
+        
     }
 
-
-
-
-    .community {
-        padding: 20% 10%;
-    }
-    .community .community-box h2 {
-        font-size: 45px;
-        line-height: 60px;
-    }
-    .community .community-box p {
-        font-size: 30px;
-    }
-    .community .community-box .img12 {
-        width: 210px;
-        height: 210px;
-        left: 86%;
-        bottom: 62%;
-    }
+    
+   
 }
 
 @media screen and (max-width: 960px) {
@@ -201,29 +202,15 @@ section {
         width: 14rem;
     }
 
-
-    .community {
-        padding: 20% 10%;
-    }
     .community .community-box h2 {
-        font-size: 30px;
+        font-size: 25px;
         line-height: 40px;
     }
+    
     .community .community-box p {
-        font-size: 20px;
+        font-size: 18px;
     }
-    .community .community-box .img12 {
-        width: 190px;
-        height: 190px;
-        left: 80%;
-        bottom: 62%;
-    }
-
-    .community .community-box .link-flex {
-        flex-direction: column;
-        gap: .5rem;
-    }
-
+    
    
 }
 
@@ -242,7 +229,31 @@ section {
         width: 10rem;
     }
 
+
+    .community {
+        padding: 2rem;
+        
+    }
+    
+    .com_tree{
+        width: 30%;
+    }
+    
+    
+    .community-box{
+        width:67%;
+    }
+
    
+    .community .community-box h2 {
+        font-size: 16px;
+    }
+
+    .community .community-box p {
+        font-size: 14px;
+    }
+  
+        
     
 }
 
@@ -267,38 +278,7 @@ section {
         margin-top: 10px;
     }
 
-    .community .community-box h2 {
-        font-size: 15px;
-        line-height: 30px;
-    }
-    .community .community-box p {
-        font-size: 12px;
-    }
-    .community .community-box .img12 {
-        width: 120px;
-        height: 150px;
-        left: 76%;
-        bottom: 62%;
-    }
-    .community .community-box h2 img {
-        width: 20px;
-        height: 20px;
-    }
-
-
-
-    .community .community-box .link-flex div button {
-        width: 80px;
-        height: 30px;
-        font-size: 9px;
-        line-height: 25px;
-        padding: 3px 7px;
-    }
-    .community .community-box .link-flex div button img {
-        width: 20px;
-        height: 20px;
-        line-height: normal;
-    }
+ 
 } 
 
 @media screen and (max-width: 380px) {
@@ -312,43 +292,9 @@ section {
         height: 40px;
     }
 
-    .community .community-box h2 {
-        font-size: 12px;
-        line-height: 30px;
-    }
-    .community .community-box p {
-        font-size: 11px;
-    }
-    .community .community-box .img12 {
-        width: 100px;
-        height: 110px;
-        left: 76%;
-        bottom: 65%;
-    }
-    .community .community-box .link-flex div button {
-        width: 80px;
-        height: 20px;
-        border-radius: 5px;
-        font-size: 7px;
-        line-height: 20px;
-        padding: 2px 6px;
-    }
-    .community .community-box .link-flex div button img {
-        width: 15px;
-        height: 15px;
-        line-height: normal;
-    }
+   
 }
 
 @media screen and (max-width: 320px) {
-    .community .community-box h2 {
-        font-size: 10px;
-        line-height: 20px;
-    }
-    .community .community-box .img12 {
-        width: 90px;
-        height: 100px;
-        left: 78%;
-        bottom: 69%;
-    }
+    
 }
