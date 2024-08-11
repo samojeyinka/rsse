@@ -11,7 +11,7 @@ import Media from "./Media";
 import Community from "./Community";
 import Footer from "./Footer";
 import Presalehero from "./Presalehero"
-import Presalestages from "./Presalestages";
+import Presalestages from "./Presalestagesnew";
 
 
 export {
