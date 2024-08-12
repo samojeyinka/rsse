@@ -5,6 +5,8 @@ import CloudbottomRight from "./Cloud bottom right.png"
 import Junglepaw from "./Jungle paw.png"
 import pc from "./pc.png"
 import tree1 from "./tree1.png"
+import lr from "./lr.png"
+import mr from "./mr.png"
 
 
 export {
@@ -14,5 +16,7 @@ export {
     CloudbottomRight,
     Junglepaw,
     pc,
-    tree1
+    tree1,
+    lr,
+    mr
 }

@@ -500,18 +500,21 @@ main,
 
 
     .presale_hero-con .herov {
-        width: 15rem;
-        left: 32%;
+        width: 18rem;
+        top: -12rem;
+        left: 27%;
     }
 
     .presale_hero-con .bigCircle {
-        width: 15rem;
+        width: 13.2rem;
+        top: -11rem;
         left: 32%;
     }
 
     .presale_hero-con .miniCircle {
-        width: 13rem;
-        left: 34.7%;
+        width: 11rem;
+        top: -10rem;
+        left: 35%;
     }
 
 
@@ -704,6 +707,19 @@ main,
         right: 21%;
     }
 
+    
+.presale_hero-con .cc1{
+    width: 5rem;
+    top: -2rem;
+    left: -2rem;
+}
+
+
+.presale_hero-con .cc2{
+    width: 7rem;
+    top: -3rem;
+    right: -2rem;
+}
 
 }
 
@@ -716,23 +732,36 @@ main,
 
 
     .presale_hero-con .herov {
-        width: 15rem;
-        left: 26%;
+        width: 18rem;
+        top: -11rem;
+        left: 18%;
+      
     }
 
     .presale_hero-con .bigCircle {
-        width: 15rem;
+        width: 14rem;
+        top: -11rem;
         left: 26%;
     }
 
     .presale_hero-con .miniCircle {
-        width: 13rem;
+        width: 12rem;
         left: 30%;
     }
 
+    .presale_hero-con .tp.tl{
+        width: 5rem;
+        left: 19.1%;
+        top: -8rem;
+    }
+    
+    
+  
+
 
     .presale_hero-con .tp.tr{
-        right: 11%;
+        width: 5rem;
+        right: 13%;
     }
 
     .presale_hero-con .avo1{
@@ -801,6 +830,19 @@ main,
     .soldino-dino_flex {
         gap: .1rem;
     }
+
+    .presale_hero-con .cc1{
+        width: 4rem;
+        top: -2rem;
+        left: -1rem;
+    }
+    
+    
+    .presale_hero-con .cc2{
+        width: 5rem;
+        top: -2rem;
+        right: -1rem;
+    }
 }
 
 
@@ -822,21 +864,21 @@ main,
     }
 
     .presale_hero-con .herov {
-        width: 14rem;
-        top: -12rem;
-        left: 20%;
+        width: 18rem;
+        top: -11rem;
+        left: 15%;
+      
     }
 
     .presale_hero-con .bigCircle {
         width: 14rem;
-        top: -12rem;
-        left: 20%;
+        top: -11rem;
+        left: 26%;
     }
 
     .presale_hero-con .miniCircle {
         width: 12rem;
-        top: -10rem;
-        left: 25%;
+        left: 30%;
     }
 
     .presale_hero-con .avo1{

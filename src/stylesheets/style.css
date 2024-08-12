@@ -337,16 +337,16 @@
 
     
     .absolute_buttons .c {
-        padding:  1.2rem;
+        padding:  .8rem;
         width: 5rem;
-        top: 60%;
+        top: 58%;
         left: 7%;
     }
 
     .absolute_clouds .cc {
         width: 5rem;
         left: 7%;
-        top: 50%;
+        top: 48%;
     }
 
 
@@ -357,17 +357,20 @@
     }
 
     .absolute_buttons .e {
+        top: 60%;
         right: -6%;
     }
 
     .absolute_clouds .ec {
         width: 7rem;
-        top: 53%;
+        top: 47%;
         right: -7%;
     }
 
     .TOTAL_SUPPLY {
-        font-size: 1.4rem;
+        position: relative;
+        font-size: 1.2rem;
+       
     }
 
 }
@@ -760,7 +763,7 @@
     }
 
     .pawkenomics-section h1 {
-        padding-top: 60px;
+        padding-top: 2px;
         padding-bottom: 10px;
         color: #FFF;
         text-align: center;

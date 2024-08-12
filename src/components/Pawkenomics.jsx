@@ -17,6 +17,7 @@ const Pawkenomics = () => {
           <div className="junglepaw_box">
             <img src={Junglepaw} />
           </div>
+          <br/>
           <h3 className="TOTAL_SUPPLY">TOTAL SUPPLY: 2.222.222.222</h3>
           <div class="pawkenomics-buttons">
             <div class="pawkenomics-button">Join Presale</div>

@@ -22,7 +22,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: 70.4px;
-    /* 125.714% */
     letter-spacing: 1.28px;
 }
 
@@ -60,102 +59,96 @@
     border-radius: 1rem;
 }
 
-.psf_btn.a {
+.psf_btn.a {}
 
-}
-
-.psf_btn.o{
+.psf_btn.o {
     bottom: 5%;
     left: 35%;
 }
 
 
-.psf_btn.n{
+.psf_btn.n {
     bottom: 16%;
     right: 15%;
     background: #FE6496;
-    
+
 }
 
-.psf_btn.m{
+.psf_btn.m {
     bottom: 17%;
     left: 28%;
 }
 
 
-.psf_btn.p{
+.psf_btn.p {
     bottom: 30%;
     right: 12%;
-    
+
 }
 
-
-
-
-.psf_btn.j{
+.psf_btn.j {
     bottom: 45%;
-    right: 17%;   
+    right: 17%;
 }
 
 
 
-.psf_btn.f{
+.psf_btn.f {
     bottom: 60%;
-    right: 17%;   
+    right: 17%;
     background: #FE6496;
 }
 
-.psf_btn.e{
+.psf_btn.e {
     bottom: 65%;
-    right: 33%;   
+    right: 33%;
 }
 
-.psf_btn.d{
+.psf_btn.d {
     bottom: 70%;
-    right: 47%;   
+    right: 47%;
 }
 
-
-.psf_btn.c{
+.psf_btn.c {
     bottom: 78%;
-    right: 37%; 
-    background: #FE6496;  
+    right: 37%;
+    background: #FE6496;
 }
 
-.psf_btn.l{
+.psf_btn.l {
     bottom: 30%;
-    left: 26%; 
-    background: #FE6496;  
+    left: 26%;
+    background: #FE6496;
 }
 
-.psf_btn.k{
+.psf_btn.k {
     bottom: 38%;
-    left: 50%; 
+    left: 50%;
 }
 
-.psf_btn.i{
+.psf_btn.i {
     bottom: 45%;
-    left: 43%; 
-    background: #FE6496;  
+    left: 43%;
+    background: #FE6496;
 }
 
-.psf_btn.h{
+.psf_btn.h {
     bottom: 50%;
-    left: 23%; 
+    left: 23%;
 }
 
-.psf_btn.g{
+.psf_btn.g {
     bottom: 60%;
-    left: 17%; 
+    left: 17%;
 }
 
-.psf_btn.a{
+.psf_btn.a {
     bottom: 86%;
-    left: 17%; 
+    left: 17%;
 }
 
 
-.fc_flower{
+.fc_flower {
     position: absolute;
     width: 40%;
     top: -17%;
@@ -163,7 +156,7 @@
 }
 
 
-.bt_flower{
+.bt_flower {
     position: absolute;
     width: 17%;
     bottom: -19%;
@@ -171,17 +164,191 @@
     transform: rotate(20deg);
 }
 
-.tf_flower{
+.tf_flower {
     position: absolute;
     width: 20%;
     bottom: -2%;
     left: -14%;
 }
 
-.fft_flower{
+.fft_flower {
     position: absolute;
     width: 40%;
     bottom: -28%;
     right: -17%;
-    
+
+}
+
+
+@media screen and (max-width:1000px) {
+
+    .psf_flower {
+        position: absolute;
+        width: 75%;
+        left: 8%;
+        bottom: -.8rem;
+    }
+
+    .fc_flower {
+        width: 60%;
+        top: -16%;
+        left: -23%;
+    }
+
+
+    .bt_flower {
+        width: 30%;
+        transform: rotate(0deg);
+    }
+
+    .tf_flower {
+        width: 40%;
+        bottom: -5%;
+        left: -24%;
+
+    }
+
+    .fft_flower {
+        width: 60%;
+        bottom: -25%;
+        right: -17%;
+    }
+}
+
+
+@media screen and (max-width:760px) {
+
+    .psf_con {
+        width: 95%;
+    }
+
+    .psf_con h2 {
+        font-size: 30px;
+    }
+
+    .psfc_box {
+        height: 40rem;
+    }
+
+
+    .psf_flower {
+        width: 60%;
+        left: 12%;
+        bottom: -.4rem;
+    }
+
+    .psf_absolute_btns button {
+        padding: .1rem .2rem;
+        font-size: 10.5px;
+        font-weight: 400;
+    }
+
+
+    .psf_btn.o {
+        bottom: 5%;
+        left: 35%;
+    }
+
+
+    .psf_btn.n {
+        bottom: 16%;
+        right: 15%;
+    }
+
+    .psf_btn.m {
+        bottom: 17%;
+        left: 28%;
+    }
+
+
+    .psf_btn.p {
+        bottom: 30%;
+        right: 7%;
+    }
+
+    .psf_btn.j {
+        bottom: 45%;
+        right: 7%;
+    }
+
+
+
+    .psf_btn.e {
+        bottom: 67%;
+        right: 23%;
+    }
+
+    .psf_btn.d {
+        right: 65%;
+    }
+
+    .psf_btn.c {
+        bottom: 75%;
+        right: 17%;
+    }
+
+    .psf_btn.l {
+        bottom: 30%;
+        left: 10%;
+    }
+
+    .psf_btn.k {
+        bottom: 38%;
+        left: 70%;
+    }
+
+    .psf_btn.i {
+        left: 30%;
+    }
+
+    .psf_btn.h {
+        bottom: 50%;
+        left: 13%;
+    }
+
+    .psf_btn.g {
+        bottom: 57%;
+        left: 7%;
+
+    }
+
+    .psf_btn.a {
+        bottom: 80%;
+        left: 1%;
+    }
+
+    .fc_flower {
+        width: 40%;
+        top: -17%;
+        left: -15%;
+    }
+
+
+    .bt_flower {
+        width: 27%;
+        bottom: -24%;
+        left: -11%;
+        transform: rotate(0deg);
+    }
+
+    .tf_flower {
+        width: 40%;
+        bottom: -11%;
+        left: -24%;
+
+    }
+
+    .fft_flower {
+        width: 60%;
+        bottom: -35%;
+        right: -9%;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .psf_flower {
+        width: 75%;
+        bottom: -.6rem;
+    }
 }
