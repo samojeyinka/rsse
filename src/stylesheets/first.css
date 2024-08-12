@@ -301,8 +301,11 @@
 }
 
 .about {
-    background-size:contain;
-    background-position:-90%;
+    width: 100%;
+    background-color: #0F3029;
+    background-image: url("../assets//landingPage/aboutbg.svg");
+    background-size:cover;
+    background-position:60% 75%;
 }
 
 .about .img6 {
@@ -341,6 +344,7 @@
     color: #FFF;
     text-align: center;
     padding-top: 120px;
+
 
 }
 
@@ -383,11 +387,17 @@
     height: 30px;
 }
 
+.firstbox_con{
+    width: 100% !important;
+    height: auto;
+  
+}
+
 .about .container .first-abox {
-    background-image: url('../images/background1.svg');
+    /* background-image: url('../assets//landingPage/HeaderBaum.png');
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right bottom;
+    background-size: cover;
+    background-position: center; */
 }
 
 .about .container .second-abox {

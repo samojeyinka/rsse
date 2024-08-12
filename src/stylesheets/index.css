@@ -495,7 +495,9 @@ header {
     letter-spacing: 1.28px;
     text-transform: capitalize;
 }
-
+.roadmap .mobile{
+    display: none;
+}
 .roadmap_con{
     padding-left: 0;
     padding-right: 0;
@@ -808,6 +810,15 @@ footer {
 
 
 @media screen and (max-width: 768px) {
+
+    .roadmap .mobile{
+        display: inherit;
+    }
+
+    .roadmap .pc{
+        display: none;
+    }
+
 footer {
         margin-top: 2rem;
         padding: 2rem 0 0 0;

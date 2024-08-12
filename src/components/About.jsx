@@ -14,7 +14,7 @@ const About = () => {
     <>
         <section class="about" id="about">
         <div class="container">
-
+                <div className='firstbox_con'>
             <div class="abox first-abox">
                 <img class="img6" src={i91} alt=""/>
                 <h2>What is Shibadino? <img src={frame1597881833} alt=""/></h2>
@@ -29,6 +29,7 @@ const About = () => {
                 <img class="img7" src={egg1} alt=""/>
                 <img class="img9" src={egg2} alt=""/>
                 <img class="img8" src={egg3} alt=""/>
+            </div>
             </div>
 
             <div class="abox second-abox">

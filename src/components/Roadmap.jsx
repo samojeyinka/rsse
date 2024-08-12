@@ -11,7 +11,7 @@ import r4 from '../assets/images/r4.png'
 import r5 from '../assets/images/r5.png'
 import toright1 from '../assets/images/toright1.png'
 import toleft1 from '../assets/images/toleft1.png'
-import { lr } from '../assets/landingPage/landingPage'
+import { lr,mr } from '../assets/landingPage/landingPage'
 import stars from "../assets/images/Stars.svg";
 
 
@@ -24,7 +24,8 @@ const Roadmap = () => {
           </h1>
                 <div class="roadmap_con">
 
-                    <img src={lr} />
+                    <img src={lr} className='pc' />
+                    <img src={mr} className="mobile" />
                 </div>
 
             </section>
