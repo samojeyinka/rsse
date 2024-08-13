@@ -58,6 +58,7 @@ import {
 } from "../utils/hooks";
 import NotificationModal from "../NotificationModal/NotificationModal";
 import { Box, Container, Stack } from "@mui/material";
+import {paw} from "../assets/PresalePagesImages/PresalePagesImages";
 const PresaleHero = () => {
   const { publicKey, sendTransaction: sendWalletTx } = useWallet();
   const wallet = useWallet();
@@ -667,13 +668,13 @@ const PresaleHero = () => {
                       width: { xs: "45px", sm: "60px" },
                       position: "relative",
                       top: { xs: "-8px", sm: "-12px" },
-                      right: "-13px",
+                      right: "-70px",
                     }}
                   />
                 </Stack>
               </Stack>
               <Box>
-                <img src={smallcavr} className="cat" width="100%" />
+                <img src={paw} className="cat" width="50%" />
               </Box>
             </Stack>
           </Container>

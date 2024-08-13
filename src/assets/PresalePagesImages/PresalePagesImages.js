@@ -3,11 +3,13 @@ import fc from "./fc.png"
 import b3 from "./B3.png"
 import tf from "./tf.png"
 import fft from "./fft.png"
+import paw from "./paw.png"
 
 export {
     psf,
     fc,
     b3,
     tf,
-    fft
+    fft,
+    paw
 }

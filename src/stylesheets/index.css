@@ -38,7 +38,7 @@ body {
     height: auto;
     font-family: Poppins;
     background: var(--color-1);
-    overflow-x: hidden;
+    overflow-x: hidden !;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -259,11 +259,13 @@ header {
 
 
 .home__hero__section {
+    margin: auto;
     position: relative;
     padding: 3rem 0;
-    width: 100%;
+    width: 95%;
     height: auto;
     background: var(--color-1);
+    overflow: hidden;
 }
 
 .home__hero__con {
@@ -1533,20 +1535,23 @@ The smart contract section styles */
 
 
     .hc1 {
-        width: 1rem;
-        height: .5rem;
+        width: 4rem !important;
+        height: 4rem !important;
         top: 36% !important;
-        right: -21% !important;
+        right: -12% !important;
     }
 
 
     .hc2 {
-        width: 1rem;
-        height: .5rem;
+        width: 4rem !important;
+        height: 4rem !important;
         top: 36% !important;
-        left: -29% !important;
+        left: -19% !important;
     }
 
+    .flex__hero__details h1{
+        font-size: 30px;
+    }
 
 
     /* The faq styling */
@@ -1677,6 +1682,21 @@ The smart contract section styles */
     }
 }
 
+
+@media screen and (max-width:725px){
+.cf1,
+.cf2,
+.cf3,
+.cf4,
+.avo5,
+.avo6,
+.avo7,
+.avoa,
+.avob,
+.avoc {
+    display: none;
+}
+}
 
 @media screen and (max-width:400px) {
     .crypto_info_bottom .address {

@@ -857,6 +857,30 @@ main,
 }
 
 
+@media screen and (max-width:460px) {
+    .presale_hero-con .tp.tr{
+        right: 12%;
+    }
+
+    .presale_hero-con .herov {
+        width: 18rem;
+        top: -11rem;
+        left: 9%;
+      
+    }
+
+    .presale_hero-con .bigCircle {
+        width: 14rem;
+        top: -11rem;
+        left: 22%;
+    }
+
+    .presale_hero-con .miniCircle {
+        width: 12rem;
+        left: 26.5%;
+    }
+}
+
 
 @media screen and (max-width: 415px) {
     .presale_hero-con {
@@ -866,19 +890,19 @@ main,
     .presale_hero-con .herov {
         width: 18rem;
         top: -11rem;
-        left: 15%;
+        left: 9%;
       
     }
 
     .presale_hero-con .bigCircle {
         width: 14rem;
         top: -11rem;
-        left: 26%;
+        left: 22%;
     }
 
     .presale_hero-con .miniCircle {
         width: 12rem;
-        left: 30%;
+        left: 26.5%;
     }
 
     .presale_hero-con .avo1{
@@ -915,6 +939,12 @@ main,
     .presale_hero-con .bottom .bottom_btns .buy_now {
         margin-top: 50px;
     }
+
+     .presale_hero-con .tp.tr{
+        right: 3%;
+    }
+
+
 }
 
 

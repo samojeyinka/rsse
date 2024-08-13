@@ -71,7 +71,6 @@
     bottom: 16%;
     right: 15%;
     background: #FE6496;
-
 }
 
 .psf_btn.m {
@@ -351,4 +350,61 @@
         width: 75%;
         bottom: -.6rem;
     }
+}
+
+
+@media screen and (max-width:480px){
+    
+    .fc_flower {
+        top: -10%;
+        left: -17%;
+    }
+
+    .psf_btn.j {
+        bottom:41%;
+        right: 9%;
+    }
+
+    .psf_btn.k {
+        text-wrap: nowrap;
+        bottom: 34%;
+        left: 50%;
+    }
+
+    .psf_btn.n {
+        bottom: 12%;
+    }
+
+    .psf_flower {
+        width: 85%;
+        bottom: -.5rem;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    
+    .fc_flower {
+        top: -10%;
+        left: -17%;
+    }
+
+    .bt_flower {
+        width: 37%;
+        bottom: -24%;
+        left: -11%;
+        transform: rotate(0deg);
+    }
+
+    .tf_flower {
+        width: 40%;
+        bottom: -7%;
+        left: -24%;
+
+    }
+
+    .fft_flower {
+        bottom: -32%;
+    }
+
 }
