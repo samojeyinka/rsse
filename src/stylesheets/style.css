@@ -312,10 +312,6 @@
         border-radius: 10px;
     }
 
-  
-
-
-
     .absolute_buttons .a {
         left: 1%;
     }
@@ -966,6 +962,70 @@
     .line3,
     .line4 {
         display: none;
+    }
+
+}
+
+
+@media screen and (max-width:400px) {
+   
+    .absolute_buttons button {
+        font-size: 8px;
+        padding: .3rem;
+        border-radius: 8px;
+    }
+    
+
+    .absolute_clouds .ac {
+        width: 3rem;
+        top: 11%;
+        left: .5%;
+    }
+
+
+
+    .absolute_clouds .bc {
+        width: 3.5rem;
+        top: 32%;
+        left: -10%;
+    }
+
+    
+    .absolute_buttons .c {
+        padding:  .6rem;
+        width: 5rem;
+        top: 58%;
+        left: 7%;
+    }
+
+    .absolute_clouds .cc {
+        width: 3.5rem;
+        left: 8%;
+        top: 50%;
+    }
+
+
+
+    .absolute_clouds .dc {
+        width: 4rem;
+        top: 23%;
+    }
+
+    .absolute_buttons .e {
+        top: 60%;
+        right: -6%;
+    }
+
+    .absolute_clouds .ec {
+        width: 5rem;
+        top: 49%;
+    }
+
+    .TOTAL_SUPPLY {
+        margin-top: 4rem;
+        position: relative;
+        font-size: 1rem;
+       
     }
 
 }
