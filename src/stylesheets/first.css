@@ -345,7 +345,6 @@
     text-align: center;
     padding-top: 120px;
 
-
 }
 
 .about .container .abox {
@@ -924,5 +923,14 @@
 
     .about .container .second-abox .img10 {
         bottom: 90%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .about .container {
+        padding-top: 50px;
+    }
+    .about .container .abox {
+        margin-bottom: 100px;
     }
 }
