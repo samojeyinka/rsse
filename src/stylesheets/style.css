@@ -1028,4 +1028,13 @@
        
     }
 
+    .pawkenomics-button{
+        text-wrap: nowrap;
+    }
+
+    .pawkenomics-whitepaper{
+        padding: 1.3rem 1rem;
+        width: fit-content;
+    }
+
 }
