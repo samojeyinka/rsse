@@ -820,6 +820,9 @@ footer {
 
     .roadmap{
         margin-bottom: 10rem;
+        background-image: url("../assets//landingPage/Roadmap.png");
+        background-size: cover;
+        background-position: center;
     }
 
     .roadmap .mobile{
@@ -832,9 +835,6 @@ footer {
    
 
     .rmp_mobile{
-        background-image: url("../assets//landingPage/Roadmap.png");
-        background-size: cover;
-        background-position: center;
         margin-top: -9rem;
         margin-bottom: 4rem;
         margin-inline: auto;
