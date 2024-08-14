@@ -1713,15 +1713,34 @@ The smart contract section styles */
 .cf1,
 .cf2,
 .cf3,
-.cf4,
+.cf4{
+    display: none;
+}
 .avo5,
 .avo6,
 .avo7,
 .avoa,
 .avob,
-.avoc {
-    display: none;
+.avoc{
+   
 }
+
+.avo6{
+    width: 3rem !important;
+    left: 10%;
+}
+
+
+.avoa{
+    width: 4rem !important;
+    left: .5%;
+}
+
+
+.avoc{
+    width: 4rem !important;
+}
+
 }
 
 @media screen and (max-width:400px) {
