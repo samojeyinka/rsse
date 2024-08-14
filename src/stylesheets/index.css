@@ -382,22 +382,16 @@ header {
 .cf1 {
     top: 19%;
     right: 24%;
+    animation: cf1 2s infinite alternate ease-in-out;
+    opacity: .7;
 }
 
-.cf2 {
-    top: 41%;
-    right: 26%;
-}
-
-.cf3 {
-    top: 50%;
-    left: 18%;
-    
-}
 
 .cf4 {
     top: 10%;
     left: 15%;
+    opacity: .7;
+    animation: cf4 2s infinite alternate ease-in-out;
 }
 
 .avo5 {
@@ -405,7 +399,32 @@ header {
     height: 7rem;
     top: 5.5%;
     left:7%;
+    animation: avo5 2.7s infinite alternate ease-in-out;
 }
+
+@keyframes avo5 {
+    0% {
+        left:5%;
+    }
+    100% {
+        width: 28%;
+        top: 7%;
+        left:8%;
+       
+    }
+  }
+
+  @keyframes cf4 {
+    0% {
+        top: 10%;
+        left: 15%;
+    }
+    100% {
+        width: 27%;
+        top: 8%;
+        left: 10%;
+    }
+  }
 
 
 .avoa {
@@ -413,20 +432,106 @@ header {
     height: 4rem;
     top: 16%;
     right: 16%;
+    animation: avoa 2s infinite alternate ease-in-out;
 }
+
+@keyframes avoa {
+    0% {
+      right: 16%;
+    }
+    100% {
+      right: 12%;
+    }
+  }
+
+  @keyframes cf1 {
+    0% {
+        top: 19%;
+    right: 24%;
+    }
+    100% {
+        width: 30%;
+        top: 15%;
+    right: 20%;
+    }
+  }
+
+  .cf2 {
+    top: 41%;
+    right: 26%;
+    opacity: .7;
+    animation: cf2 2s infinite alternate ease-in-out;
+}
+
+
+  @keyframes cf2 {
+    0% {
+        top: 41%;
+        right: 26%;
+    }
+    100% {
+        width: 26%;
+        top: 41%;
+    right: 20%;
+    opacity: .1;
+    }
+  }
+
 
 .avob {
     width: 7rem;
     height: 7rem;
     top: 52%;
     right: 13%;
+    animation: avob 2.7s infinite alternate ease-in-out;
 }
+
+@keyframes avob{
+    0% {
+        top: 52%;
+        right: 13%;
+    }
+    100% {
+        top: 52%;
+        right: 15%;
+       }
+}
+
+.cf3 {
+    top: 50%;
+    left: 18%;
+    animation: cf3 3s infinite alternate ease-in-out;
+}
+
+@keyframes cf3 {
+    0% {
+        top: 50%;
+        left: 18%;
+    }
+    100% {
+        width: 25%;
+        top: 50%;
+    left: 13%;
+    }
+  }
+
 
 .avoc {
     width: 6rem;
     height: 6rem;
     top: 52%;
     left: 10.6%;
+    animation: avoc 3s infinite alternate ease-in-out;
+}
+
+@keyframes avoc{
+    0% {
+        top: 52%;
+        left: 10.6%;
+    }
+    100% {
+        top: 52%;
+        left: 4.6%;    }
 }
 
 .avo6 {
@@ -434,6 +539,18 @@ header {
     height: 2.6rem;
     top: 5%;
     right: 26%;
+    animation: avo6 3s infinite alternate ease-in-out;
+}
+
+@keyframes avo6{
+    0% {
+        top: 5%;
+        right: 26%;
+    }
+    100% {
+        top: 5%;
+        right: 10%;
+    }
 }
 
 .avo7 {
@@ -441,8 +558,20 @@ header {
     height: 2.5rem;
     top: 90%;
     left: 6%;
+    animation: avo7 3s infinite alternate ease-in-out;
 }
 
+
+@keyframes avo7{
+    0% {
+        top: 90%;
+        left: 6%;
+    }
+    100% {
+        top: 90%;
+    left: 6%;
+    }
+}
 
 .hc1 {
     top: 26%;

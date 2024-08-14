@@ -25,6 +25,7 @@ function App() {
       path: "/",
       element: <Home />,
     },
+    
     {
       path: "/presale",
       element: <Presale adminState={adminState} />,
