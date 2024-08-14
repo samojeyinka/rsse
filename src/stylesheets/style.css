@@ -2,13 +2,13 @@
 
 .pawkenomics {
     height: auto;
-
 }
 
 .pawkenomics-section {
     margin-top: 70px;
     display: flex;
     justify-content: center;
+    
 }
 
 .pawkenomics {
@@ -183,13 +183,13 @@
 
 .absolute_buttons .d {
     top: 30%;
-    right: -10%;
+    right: -5% !important;
 }
 
 .absolute_clouds .dc {
     width: 12rem;
     top: 17%;
-    right: -10%;
+    right: -5%;
 }
 
 .absolute_buttons .e {

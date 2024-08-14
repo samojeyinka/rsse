@@ -1671,6 +1671,14 @@ The smart contract section styles */
         margin-top: -1rem;
     }
 
+   
+        .cf1,
+        .cf2,
+        .cf3,
+        .cf4{
+            display: none;
+        }
+
 }
 
 
@@ -1733,11 +1741,15 @@ The smart contract section styles */
 
 .avoa{
     width: 4rem !important;
-    left: .5%;
+    left:-10%;
 }
 
 
 .avoc{
+    width: 4rem !important;
+}
+
+.avob{
     width: 4rem !important;
 }
 

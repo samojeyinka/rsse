@@ -205,7 +205,9 @@ section {
     .community .community-box p {
         font-size: 18px;
     }
+
     
+  
    
 }
 
@@ -293,6 +295,7 @@ section {
         margin-left: -6rem;
         width: 10rem;
     }
+
     .community-box{
         width:100%;
     }
