@@ -5,7 +5,8 @@ import logoMobile from "../assets/images/logo-avatar.svg";
 import { FaBars } from "react-icons/fa";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { useWallet } from "@solana/wallet-adapter-react";
-import {useLocation} from "react-router-dom"
+import {useLocation} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
@@ -34,9 +35,9 @@ const Header = () => {
       {/* The header section */}
       <header>
         <nav class="navbar">
-          <div class="logo__box">
+          <Link to={"/"} class="logo__box">
             <img src={logo} class="logo__img" />
-          </div>
+          </Link>
           <div class="nav__links__con">
             <ul class="nav__links">
               <li class="nav__link">

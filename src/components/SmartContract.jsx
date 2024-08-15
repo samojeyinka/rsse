@@ -50,7 +50,7 @@ const SmartContract = () => {
                       }, 1000);
                     }}
                   >
-                    <button class="copy">
+                    <button class="copy" style={{zIndex:1}}>
                       {refCopied ? "Copied!" : "Copy"}
                     </button>
                   </CopyToClipboard>
