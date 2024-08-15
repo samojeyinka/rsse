@@ -54,11 +54,6 @@ const Hero = () => {
                 <img src={cf2} class="cf2" />
                 <img src={cf3} class="cf3" />
                 <img src={path} class="cf4" />
-                <img src={avo5} class="avo5" />
-                <img src={avoa} class="avoa" />
-                <img src={avob} class="avob" />
-                <img src={avoc} class="avoc" />
-                <img src={avo6} class="avo7" />
                 <img src={avo6} class="avo6" />
                 <img src={cloudRight} class="hc1" />
                 <img src={cloudLeft} class="hc2" />
