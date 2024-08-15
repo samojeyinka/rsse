@@ -368,171 +368,92 @@ header {
 .cf2,
 .cf3,
 .cf4,
-.avo5,
 .hc1,
 .hc2,
 .avo6,
-.avo7,
-.avoa,
-.avob,
 .avoc {
     position: absolute;
 }
 
 .cf1 {
-    top: 19%;
-    right: 24%;
-    animation: cf1 2s infinite alternate ease-in-out;
+    animation: cf1 4s infinite alternate ease-in-out;
     opacity: .7;
 }
 
 
 .cf4 {
-    top: 10%;
-    left: 15%;
     opacity: .7;
-    animation: cf4 2s infinite alternate ease-in-out;
+    animation: cf4 4s infinite alternate ease-in-out;
 }
 
-.avo5 {
-    width: 7rem;
-    height: 7rem;
-    top: 5.5%;
-    left:7%;
-    animation: avo5 2.7s infinite alternate ease-in-out;
-}
-
-@keyframes avo5 {
-    0% {
-        left:5%;
-    }
-    100% {
-        width: 28%;
-        top: 7%;
-        left:8%;
-       
-    }
-  }
 
   @keyframes cf4 {
     0% {
-        top: 10%;
-        left: 15%;
+        top: 5%;
+        left: 18%;
+        opacity: .6;
     }
     100% {
         width: 27%;
-        top: 8%;
-        left: 10%;
+        top: 1%;
+        left: 14%;
+        opacity:1;
     }
   }
 
 
-.avoa {
-    width: 4rem;
-    height: 4rem;
-    top: 16%;
-    right: 16%;
-    animation: avoa 2s infinite alternate ease-in-out;
-}
-
-@keyframes avoa {
-    0% {
-      right: 16%;
-    }
-    100% {
-      right: 12%;
-    }
-  }
 
   @keyframes cf1 {
     0% {
-        top: 19%;
+        top: 15%;
     right: 24%;
+    opacity: .6;
     }
     100% {
-        width: 30%;
-        top: 15%;
-    right: 20%;
+        width: 35%;
+        top: 5%;
+    right: 15%;
+    opacity:1;
     }
   }
 
   .cf2 {
-    top: 41%;
-    right: 26%;
     opacity: .7;
-    animation: cf2 2s infinite alternate ease-in-out;
+    animation: cf2 5s infinite alternate ease-in-out;
 }
-
 
   @keyframes cf2 {
     0% {
-        top: 41%;
+        top: 38%;
         right: 26%;
+        opacity:.6;
     }
     100% {
         width: 26%;
-        top: 41%;
+        top: 44%;
     right: 20%;
-    opacity: .1;
+    opacity:1;
     }
   }
 
-
-.avob {
-    width: 7rem;
-    height: 7rem;
-    top: 52%;
-    right: 13%;
-    animation: avob 2.7s infinite alternate ease-in-out;
-}
-
-@keyframes avob{
-    0% {
-        top: 52%;
-        right: 13%;
-    }
-    100% {
-        top: 52%;
-        right: 15%;
-       }
-}
-
 .cf3 {
-    top: 50%;
-    left: 18%;
-    animation: cf3 3s infinite alternate ease-in-out;
+    animation: cf3 2s infinite alternate ease-in-out;
+    opacity: .7;
 }
 
 @keyframes cf3 {
     0% {
-        top: 50%;
+        top: 45%;
         left: 18%;
+        opacity:.6;
     }
     100% {
         width: 25%;
         top: 50%;
     left: 13%;
+    opacity:1;
     }
   }
-
-
-.avoc {
-    width: 6rem;
-    height: 6rem;
-    top: 52%;
-    left: 10.6%;
-    animation: avoc 3s infinite alternate ease-in-out;
-}
-
-@keyframes avoc{
-    0% {
-        top: 52%;
-        left: 10.6%;
-    }
-    100% {
-        top: 52%;
-        left: 4.6%;    }
-}
 
 .avo6 {
     width: 2.6rem;
@@ -549,29 +470,11 @@ header {
     }
     100% {
         top: 5%;
-        right: 10%;
+        right: 20%;
     }
 }
 
-.avo7 {
-    width: 2.5rem;
-    height: 2.5rem;
-    top: 90%;
-    left: 6%;
-    animation: avo7 3s infinite alternate ease-in-out;
-}
 
-
-@keyframes avo7{
-    0% {
-        top: 90%;
-        left: 6%;
-    }
-    100% {
-        top: 90%;
-    left: 6%;
-    }
-}
 
 .hc1 {
     top: 26%;
@@ -959,7 +862,7 @@ footer {
     }
 
     .roadmap_con{
-        background-color: red !important;
+        
     }
    
 
@@ -1430,69 +1333,71 @@ The smart contract section styles */
 /* For tab screen */
 @media screen and (max-width: 1024px) {
 
-    .cf1 {
-        top: 9%;
-        right: 4%;
+  
+    
+  @keyframes cf4 {
+    0% {
+        top: 2%;
+        left: 14%;
+        opacity: .6;
     }
-
-    .cf2 {
-        top: 41%;
-        right: 10%;
+    100% {
+        width: 27%;
+        top: 1%;
+        left: 12%;
+        opacity:1;
     }
+  }
 
-    .cf3 {
-        top: 50%;
+
+
+  @keyframes cf1 {
+    0% {
+        top: 10%;
+    right: 20%;
+    opacity: .6;
+    }
+    100% {
+        width: 35%;
+        top: 5%;
+    right: 15%;
+    opacity:1;
+    }
+  }
+
+  .cf2 {
+    opacity: .7;
+    animation: cf2 5s infinite alternate ease-in-out;
+}
+
+  @keyframes cf2 {
+    0% {
+        top: 38%;
+        right: 14%;
+        opacity:.6;
+    }
+    100% {
+        width: 26%;
+        top: 44%;
+    right: 17%;
+    opacity:1;
+    }
+  }
+
+
+@keyframes cf3 {
+    0% {
+        top: 43%;
         left: 5%;
+        opacity:.6;
     }
-
-    .cf4 {
-        top: 5%;
-        left: 7%;
+    100% {
+        width: 25%;
+        top: 50%;
+    left: 8%;
+    opacity:1;
     }
-
-    .avo5 {
-        width: 6rem;
-        height: 6rem;
-        top: 7%;
-        left: -2%;
-    }
-
-
-    .avoa {
-        width: 4rem;
-        height: 4rem;
-        top: 7%;
-        right: -8%;
-    }
-
-    .avob {
-        width: 5rem;
-        height: 5rem;
-        top: 55%;
-        right: -8%;
-    }
-
-    .avoc {
-        width: 5rem;
-        height: 5rem;
-        top: 52%;
-        left: -6%;
-    }
-
-    .avo6 {
-        width: 2.6rem;
-        height: 2.6rem;
-        top: 5%;
-        right: 26%;
-    }
-
-    .avo7 {
-        width: 2.5rem;
-        height: 2.5rem;
-        top: 90%;
-        left: 6%;
-
-    }
+  }
 
 
     .hc1 {
@@ -1539,8 +1444,6 @@ The smart contract section styles */
     .utils img {
         visibility: hidden !important;
     }
-
-    
 
 }
 
@@ -1813,8 +1716,6 @@ The smart contract section styles */
 
 
 /* For smaller screen */
-
-
 @media screen and (max-width: 468px) {
     .utils {
         display: inherit;
@@ -1830,56 +1731,11 @@ The smart contract section styles */
     }
 
 }
-
-
-
 /* For larger screen */
-
-
-@media (min-width:1680px){
-    .avob {
-        width: 7rem;
-        height: 7rem;
-        top: 52%;
-        right: 19%;
-    }
-}
-
-
 @media screen and (max-width:725px){
-.cf1,
-.cf2,
-.cf3,
-.cf4{
-    display: none;
-}
-.avo5,
-.avo6,
-.avo7,
-.avoa,
-.avob,
-.avoc{
-   
-}
-
 .avo6{
     width: 3rem !important;
     left: 10%;
-}
-
-
-.avoa{
-    width: 4rem !important;
-    left:-10%;
-}
-
-
-.avoc{
-    width: 4rem !important;
-}
-
-.avob{
-    width: 4rem !important;
 }
 
 }
