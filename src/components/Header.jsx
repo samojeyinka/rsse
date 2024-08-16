@@ -9,8 +9,10 @@ import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-
   const location = useLocation();
+
+
+  
   const urlPath = location.pathname.split('/');
   const presale = urlPath[urlPath.length - 1]
 
