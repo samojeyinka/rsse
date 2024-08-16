@@ -5,6 +5,8 @@ import stars from "../assets/images/Stars.svg";
 import powkenomicsmobile from "../assets/images/powkenomics-mobile.svg";
 import '../stylesheets/style.css'
 import {Junglepaw,pc} from '../assets/landingPage/landingPage'
+import whitepaper from "../assets/pdfs/ShibaDino_Whitepaper .pdf"
+
 
 const Pawkenomics = () => {
   return (
@@ -21,8 +23,9 @@ const Pawkenomics = () => {
           <h3 className="TOTAL_SUPPLY">TOTAL SUPPLY: 2.222.222.222</h3>
           <div class="pawkenomics-buttons">
             <div class="pawkenomics-button">Join Presale</div>
-
+            <a href = {whitepaper} target = "_blank">
             <div class="pawkenomics-whitepaper">Whitepaper</div>
+            </a>
           </div>
 
 

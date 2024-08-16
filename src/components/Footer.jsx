@@ -3,6 +3,7 @@ import footerlogo from '../assets/images/footer-logo.svg'
 import cookies from "../assets/pdfs/4_5908823939194295922.pdf"
 import tc from "../assets/pdfs/ShibaDino_Terms and Condition.pdf"
 import pr from "../assets/pdfs/4_5908823939194295923.pdf"
+import whitepaper from "../assets/pdfs/ShibaDino_Whitepaper .pdf"
 
 
 const Footer = () => {
@@ -31,7 +32,7 @@ const Footer = () => {
                     <div class="link_section_box">
                         <h3>Docs</h3>
                         <ul>
-                            <li><a href="#">Whitepaper</a></li>
+                            <li><a href = {whitepaper} target = "_blank">Whitepaper</a></li>
                             <li><a href="#">Audit Report</a></li>
                         </ul>
                     </div>
