@@ -5,31 +5,53 @@ import logoMobile from "../assets/images/logo-avatar.svg";
 import { FaBars } from "react-icons/fa";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { useWallet } from "@solana/wallet-adapter-react";
-import {useLocation} from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const Header = () => {
 
   const location = useLocation();
   const urlPath = location.pathname.split('/');
-  const presale = urlPath[urlPath.length -1]
+  const presale = urlPath[urlPath.length - 1]
 
   console.log(presale)
 
   const { publicKey } = useWallet();
+
   const handleMobileMenu = () => {
     let menuList = document.getElementById("menuList");
-    if (menuList.style.width == "0%") {
+    let navOverlay = document.getElementById("navOverlay");
+
+    if (menuList.style.width == "0%" || menuList.style.width === "") {
       menuList.style.width = "60%";
+      navOverlay.style.width = "100%";
+
+
+      navOverlay.addEventListener("click", closeMenu);
     } else {
       menuList.style.width = "0%";
+      navOverlay.style.width = "0%";
+
+
+      navOverlay.removeEventListener("click", closeMenu);
     }
   };
 
   const closeMenu = () => {
     let menuList = document.getElementById("menuList");
+    let navOverlay = document.getElementById("navOverlay");
+
     menuList.style.width = "0%";
+    navOverlay.style.width = "0%";
+
+    navOverlay.removeEventListener("click", closeMenu);
   };
+
+
+
+
+
+
   return (
     <>
       {/* The header section */}
@@ -44,16 +66,16 @@ const Header = () => {
                 <a href={presale === "presale" ? "/#about" : "#about"}>About Us</a>
               </li>
               <li class="nav__link">
-                <a href={presale === "presale" ? "/#roadmap" :"#roadmap"}>RoadMap</a>
+                <a href={presale === "presale" ? "/#roadmap" : "#roadmap"}>RoadMap</a>
               </li>
               <li class="nav__link">
-              <a href={presale === "presale" ? "/#pawkenomics": "#pawkenomics"}>Pawkenomics</a>
+                <a href={presale === "presale" ? "/#pawkenomics" : "#pawkenomics"}>Pawkenomics</a>
               </li>
               <li class="nav__link">
-              <a href={presale === "presale" ? "/#whitepaper" : "#whitepaper"}>Whitepaper</a>
+                <a href={presale === "presale" ? "/#whitepaper" : "#whitepaper"}>Whitepaper</a>
               </li>
               <li class="nav__link">
-                 <a href={presale === "presale" ? "/#cart":"#cart"}>Buy</a>
+                <a href={presale === "presale" ? "/#cart" : "#cart"}>Buy</a>
               </li>
             </ul>
           </div>
@@ -77,8 +99,8 @@ const Header = () => {
             >
               {publicKey
                 ? publicKey?.toString().slice(0, 4) +
-                  "..." +
-                  publicKey?.toString().slice(-4)
+                "..." +
+                publicKey?.toString().slice(-4)
                 : "CONNECT WALLET"}
             </WalletMultiButton>
           </div>
@@ -91,7 +113,10 @@ const Header = () => {
         </nav>
       </header>
 
-      {/* for mobile  */}
+      {/* for mobile starts */}
+      <div id="navOverlay">
+
+      </div>
       <div class="nav__links__con" id="menuList">
         <img src={logoMobile} class="mobile_logo" />
         <ul class="nav__links">
@@ -129,13 +154,13 @@ const Header = () => {
           >
             {publicKey
               ? publicKey?.toString().slice(0, 4) +
-                "..." +
-                publicKey?.toString().slice(-4)
+              "..." +
+              publicKey?.toString().slice(-4)
               : "CONNECT WALLET"}
           </WalletMultiButton>
         </div>
       </div>
-      {/* for mobile  */}
+      {/* for mobile  ends*/}
     </>
   );
 };

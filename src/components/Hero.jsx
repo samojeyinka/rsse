@@ -24,6 +24,7 @@ import {
 } from "../assets/heroImages";
 import { cloudLeft,cloudRight,  Cloudbottomleft, CloudbottomRight } from "../assets/landingPage/landingPage";
 import { Link } from "react-router-dom";
+import whitepaper from "../assets/pdfs/ShibaDino_Whitepaper .pdf"
 
 const Hero = () => {
   return (
@@ -43,9 +44,11 @@ const Hero = () => {
                     Join Presale
                   </button>
                 </Link>
+                <a href = {whitepaper} target = "_blank">
                 <button type="button" class="wp">
                   Whitepaper
                 </button>
+                </a>
               </div>
               <div class="utils">
                 <img src={twinkle1} class="twinkle1" />

@@ -1,5 +1,9 @@
 import React from 'react'
 import footerlogo from '../assets/images/footer-logo.svg'
+import cookies from "../assets/pdfs/4_5908823939194295922.pdf"
+import tc from "../assets/pdfs/ShibaDino_Terms and Condition.pdf"
+import pr from "../assets/pdfs/4_5908823939194295923.pdf"
+
 
 const Footer = () => {
   return (
@@ -35,9 +39,9 @@ const Footer = () => {
                     <div class="link_section_box">
                         <h3>Terms</h3>
                         <ul>
-                            <li><a href="#">Cookies Policy</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href = {cookies} target = "_blank">Cookies Policy</a></li>
+                            <li><a href = {pr} target = "_blank">Privacy Policy</a></li>
+                            <li><a href = {tc} target = "_blank">Terms of Use</a></li>
                         </ul>
                     </div>
 
